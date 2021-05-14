@@ -1,0 +1,4101 @@
+PioSOLVER-edge 2.0.5 (Apr 21 2021, 15:34:42)
+(c) Piotr Lopusiewicz
+registered to wmizumoto@gmail.com
+
+is_ready ok!
+set_end_string ok!
+END
+set_threads ok!
+END
+set_recalc_accuracy ok!
+END
+set_always_recalc ok!
+END
+is_ready ok!
+END
+load_tree ok!
+END
+r
+ROOT
+Ah Jd 9d 
+0 0 550 
+1 children
+flags: ISOMORPHISM_ON PIO_CFR 
+
+END
+10000
+END
+set_eff_stack ok!
+END
+set_isomorphism ok!
+END
+set_pot ok!
+END
+clear_lines ok!
+END
+r
+r:0
+r:0:c
+r:0:c:c
+r:0:c:c:c
+r:0:c:c:c:c
+r:0:c:c:c:c:c
+r:0:c:c:c:c:c:c
+r:0:c:c:c:c:c:b358
+r:0:c:c:c:c:c:b358:f
+r:0:c:c:c:c:c:b358:c
+r:0:c:c:c:c:c:b358:b991
+r:0:c:c:c:c:c:b358:b991:f
+r:0:c:c:c:c:c:b358:b991:c
+r:0:c:c:c:c:c:b358:b991:b2257
+r:0:c:c:c:c:c:b358:b991:b2257:f
+r:0:c:c:c:c:c:b358:b991:b2257:c
+r:0:c:c:c:c:c:b358:b991:b2257:b4789
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:f
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:c
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:b10000
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:b10000:f
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:b10000:c
+r:0:c:c:c:c:c:b358:b991:b2257:b10000
+r:0:c:c:c:c:c:b358:b991:b2257:b10000:f
+r:0:c:c:c:c:c:b358:b991:b2257:b10000:c
+r:0:c:c:c:c:c:b825
+r:0:c:c:c:c:c:b825:f
+r:0:c:c:c:c:c:b825:c
+r:0:c:c:c:c:c:b825:b1925
+r:0:c:c:c:c:c:b825:b1925:f
+r:0:c:c:c:c:c:b825:b1925:c
+r:0:c:c:c:c:c:b825:b1925:b4125
+r:0:c:c:c:c:c:b825:b1925:b4125:f
+r:0:c:c:c:c:c:b825:b1925:b4125:c
+r:0:c:c:c:c:c:b825:b1925:b4125:b10000
+r:0:c:c:c:c:c:b825:b1925:b4125:b10000:f
+r:0:c:c:c:c:c:b825:b1925:b4125:b10000:c
+r:0:c:c:c:c:c:b825:b1925:b10000
+r:0:c:c:c:c:c:b825:b1925:b10000:f
+r:0:c:c:c:c:c:b825:b1925:b10000:c
+r:0:c:c:c:c:b138
+r:0:c:c:c:c:b138:f
+r:0:c:c:c:c:b138:c
+r:0:c:c:c:c:b138:b551
+r:0:c:c:c:c:b138:b551:f
+r:0:c:c:c:c:b138:b551:c
+r:0:c:c:c:c:b138:b551:b1377
+r:0:c:c:c:c:b138:b551:b1377:f
+r:0:c:c:c:c:b138:b551:b1377:c
+r:0:c:c:c:c:b138:b551:b1377:b3029
+r:0:c:c:c:c:b138:b551:b1377:b3029:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:c
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:c
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:b10000
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:b10000:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:b10000:c
+r:0:c:c:c:c:b138:b551:b1377:b3029:b10000
+r:0:c:c:c:c:b138:b551:b1377:b3029:b10000:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:b10000:c
+r:0:c:c:c:c:b412
+r:0:c:c:c:c:b412:f
+r:0:c:c:c:c:b412:c
+r:0:c:c:c:c:b412:b1099
+r:0:c:c:c:c:b412:b1099:f
+r:0:c:c:c:c:b412:b1099:c
+r:0:c:c:c:c:b412:b1099:b2473
+r:0:c:c:c:c:b412:b1099:b2473:f
+r:0:c:c:c:c:b412:b1099:b2473:c
+r:0:c:c:c:c:b412:b1099:b2473:b5221
+r:0:c:c:c:c:b412:b1099:b2473:b5221:f
+r:0:c:c:c:c:b412:b1099:b2473:b5221:c
+r:0:c:c:c:c:b412:b1099:b2473:b5221:b10000
+r:0:c:c:c:c:b412:b1099:b2473:b5221:b10000:f
+r:0:c:c:c:c:b412:b1099:b2473:b5221:b10000:c
+r:0:c:c:c:c:b412:b1099:b2473:b10000
+r:0:c:c:c:c:b412:b1099:b2473:b10000:f
+r:0:c:c:c:c:b412:b1099:b2473:b10000:c
+r:0:c:c:c:c:b825
+r:0:c:c:c:c:b825:f
+r:0:c:c:c:c:b825:c
+r:0:c:c:c:c:b825:b1925
+r:0:c:c:c:c:b825:b1925:f
+r:0:c:c:c:c:b825:b1925:c
+r:0:c:c:c:c:b825:b1925:b4125
+r:0:c:c:c:c:b825:b1925:b4125:f
+r:0:c:c:c:c:b825:b1925:b4125:c
+r:0:c:c:c:c:b825:b1925:b4125:b10000
+r:0:c:c:c:c:b825:b1925:b4125:b10000:f
+r:0:c:c:c:c:b825:b1925:b4125:b10000:c
+r:0:c:c:c:c:b825:b1925:b10000
+r:0:c:c:c:c:b825:b1925:b10000:f
+r:0:c:c:c:c:b825:b1925:b10000:c
+r:0:c:c:c:b363
+r:0:c:c:c:b363:f
+r:0:c:c:c:b363:c
+r:0:c:c:c:b363:c:c
+r:0:c:c:c:b363:c:c:c
+r:0:c:c:c:b363:c:c:b1192
+r:0:c:c:c:b363:c:c:b1192:f
+r:0:c:c:c:b363:c:c:b1192:c
+r:0:c:c:c:b363:c:c:b1192:b2659
+r:0:c:c:c:b363:c:c:b1192:b2659:f
+r:0:c:c:c:b363:c:c:b1192:b2659:c
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:f
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:c
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:b10000
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:b10000:f
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:b10000:c
+r:0:c:c:c:b363:c:c:b1192:b2659:b10000
+r:0:c:c:c:b363:c:c:b1192:b2659:b10000:f
+r:0:c:c:c:b363:c:c:b1192:b2659:b10000:c
+r:0:c:c:c:b363:c:c:b2277
+r:0:c:c:c:b363:c:c:b2277:f
+r:0:c:c:c:b363:c:c:b2277:c
+r:0:c:c:c:b363:c:c:b2277:b4829
+r:0:c:c:c:b363:c:c:b2277:b4829:f
+r:0:c:c:c:b363:c:c:b2277:b4829:c
+r:0:c:c:c:b363:c:c:b2277:b4829:b10000
+r:0:c:c:c:b363:c:c:b2277:b4829:b10000:f
+r:0:c:c:c:b363:c:c:b2277:b4829:b10000:c
+r:0:c:c:c:b363:c:c:b2277:b10000
+r:0:c:c:c:b363:c:c:b2277:b10000:f
+r:0:c:c:c:b363:c:c:b2277:b10000:c
+r:0:c:c:c:b363:b1001
+r:0:c:c:c:b363:b1001:f
+r:0:c:c:c:b363:b1001:c
+r:0:c:c:c:b363:b1001:c:c
+r:0:c:c:c:b363:b1001:c:c:c
+r:0:c:c:c:b363:b1001:c:c:b2660
+r:0:c:c:c:b363:b1001:c:c:b2660:f
+r:0:c:c:c:b363:b1001:c:c:b2660:c
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:f
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:c
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:b10000
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:b10000:f
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:b10000:c
+r:0:c:c:c:b363:b1001:c:c:b2660:b10000
+r:0:c:c:c:b363:b1001:c:c:b2660:b10000:f
+r:0:c:c:c:b363:b1001:c:c:b2660:b10000:c
+r:0:c:c:c:b363:b1001:c:c:b4829
+r:0:c:c:c:b363:b1001:c:c:b4829:f
+r:0:c:c:c:b363:b1001:c:c:b4829:c
+r:0:c:c:c:b363:b1001:c:c:b4829:b10000
+r:0:c:c:c:b363:b1001:c:c:b4829:b10000:f
+r:0:c:c:c:b363:b1001:c:c:b4829:b10000:c
+r:0:c:c:c:b363:b1001:c:b1639
+r:0:c:c:c:b363:b1001:c:b1639:f
+r:0:c:c:c:b363:b1001:c:b1639:c
+r:0:c:c:c:b363:b1001:c:b1639:b3553
+r:0:c:c:c:b363:b1001:c:b1639:b3553:f
+r:0:c:c:c:b363:b1001:c:b1639:b3553:c
+r:0:c:c:c:b363:b1001:c:b1639:b3553:b10000
+r:0:c:c:c:b363:b1001:c:b1639:b3553:b10000:f
+r:0:c:c:c:b363:b1001:c:b1639:b3553:b10000:c
+r:0:c:c:c:b363:b1001:c:b2915
+r:0:c:c:c:b363:b1001:c:b2915:f
+r:0:c:c:c:b363:b1001:c:b2915:c
+r:0:c:c:c:b363:b1001:c:b2915:b6105
+r:0:c:c:c:b363:b1001:c:b2915:b6105:f
+r:0:c:c:c:b363:b1001:c:b2915:b6105:c
+r:0:c:c:c:b363:b1001:c:b2915:b6105:b10000
+r:0:c:c:c:b363:b1001:c:b2915:b6105:b10000:f
+r:0:c:c:c:b363:b1001:c:b2915:b6105:b10000:c
+r:0:c:c:c:b363:b1001:c:b2915:b10000
+r:0:c:c:c:b363:b1001:c:b2915:b10000:f
+r:0:c:c:c:b363:b1001:c:b2915:b10000:c
+r:0:c:c:c:b363:b1001:c:b4829
+r:0:c:c:c:b363:b1001:c:b4829:f
+r:0:c:c:c:b363:b1001:c:b4829:c
+r:0:c:c:c:b363:b1001:c:b4829:b10000
+r:0:c:c:c:b363:b1001:c:b4829:b10000:f
+r:0:c:c:c:b363:b1001:c:b4829:b10000:c
+r:0:c:c:c:b363:b1001:b2277
+r:0:c:c:c:b363:b1001:b2277:f
+r:0:c:c:c:b363:b1001:b2277:c
+r:0:c:c:c:b363:b1001:b2277:c:c
+r:0:c:c:c:b363:b1001:b2277:c:c:c
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:f
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:c
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:b10000
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:b10000:f
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:b10000:c
+r:0:c:c:c:b363:b1001:b2277:c:c:b10000
+r:0:c:c:c:b363:b1001:b2277:c:c:b10000:f
+r:0:c:c:c:b363:b1001:b2277:c:c:b10000:c
+r:0:c:c:c:b363:b1001:b2277:b4829
+r:0:c:c:c:b363:b1001:b2277:b4829:f
+r:0:c:c:c:b363:b1001:b2277:b4829:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:b10000
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:b10000:f
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:b10000:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:b10000
+r:0:c:c:c:b363:b1001:b2277:b4829:c:b10000:f
+r:0:c:c:c:b363:b1001:b2277:b4829:c:b10000:c
+r:0:c:c:c:b363:b1001:b2277:b4829:b10000
+r:0:c:c:c:b363:b1001:b2277:b4829:b10000:f
+r:0:c:c:c:b363:b1001:b2277:b4829:b10000:c
+r:0:c:c:c:b688
+r:0:c:c:c:b688:f
+r:0:c:c:c:b688:c
+r:0:c:c:c:b688:c:c
+r:0:c:c:c:b688:c:c:c
+r:0:c:c:c:b688:c:c:b1940
+r:0:c:c:c:b688:c:c:b1940:f
+r:0:c:c:c:b688:c:c:b1940:c
+r:0:c:c:c:b688:c:c:b1940:b4155
+r:0:c:c:c:b688:c:c:b1940:b4155:f
+r:0:c:c:c:b688:c:c:b1940:b4155:c
+r:0:c:c:c:b688:c:c:b1940:b4155:b10000
+r:0:c:c:c:b688:c:c:b1940:b4155:b10000:f
+r:0:c:c:c:b688:c:c:b1940:b4155:b10000:c
+r:0:c:c:c:b688:c:c:b1940:b10000
+r:0:c:c:c:b688:c:c:b1940:b10000:f
+r:0:c:c:c:b688:c:c:b1940:b10000:c
+r:0:c:c:c:b688:c:c:b3577
+r:0:c:c:c:b688:c:c:b3577:f
+r:0:c:c:c:b688:c:c:b3577:c
+r:0:c:c:c:b688:c:c:b3577:b10000
+r:0:c:c:c:b688:c:c:b3577:b10000:f
+r:0:c:c:c:b688:c:c:b3577:b10000:c
+r:0:c:c:c:b688:b1651
+r:0:c:c:c:b688:b1651:f
+r:0:c:c:c:b688:b1651:c
+r:0:c:c:c:b688:b1651:c:c
+r:0:c:c:c:b688:b1651:c:c:c
+r:0:c:c:c:b688:b1651:c:c:b4155
+r:0:c:c:c:b688:b1651:c:c:b4155:f
+r:0:c:c:c:b688:b1651:c:c:b4155:c
+r:0:c:c:c:b688:b1651:c:c:b4155:b10000
+r:0:c:c:c:b688:b1651:c:c:b4155:b10000:f
+r:0:c:c:c:b688:b1651:c:c:b4155:b10000:c
+r:0:c:c:c:b688:b1651:c:c:b10000
+r:0:c:c:c:b688:b1651:c:c:b10000:f
+r:0:c:c:c:b688:b1651:c:c:b10000:c
+r:0:c:c:c:b688:b1651:c:b2614
+r:0:c:c:c:b688:b1651:c:b2614:f
+r:0:c:c:c:b688:b1651:c:b2614:c
+r:0:c:c:c:b688:b1651:c:b2614:b5503
+r:0:c:c:c:b688:b1651:c:b2614:b5503:f
+r:0:c:c:c:b688:b1651:c:b2614:b5503:c
+r:0:c:c:c:b688:b1651:c:b2614:b5503:b10000
+r:0:c:c:c:b688:b1651:c:b2614:b5503:b10000:f
+r:0:c:c:c:b688:b1651:c:b2614:b5503:b10000:c
+r:0:c:c:c:b688:b1651:c:b2614:b10000
+r:0:c:c:c:b688:b1651:c:b2614:b10000:f
+r:0:c:c:c:b688:b1651:c:b2614:b10000:c
+r:0:c:c:c:b688:b1651:c:b4540
+r:0:c:c:c:b688:b1651:c:b4540:f
+r:0:c:c:c:b688:b1651:c:b4540:c
+r:0:c:c:c:b688:b1651:c:b4540:b10000
+r:0:c:c:c:b688:b1651:c:b4540:b10000:f
+r:0:c:c:c:b688:b1651:c:b4540:b10000:c
+r:0:c:c:c:b688:b1651:c:b10000
+r:0:c:c:c:b688:b1651:c:b10000:f
+r:0:c:c:c:b688:b1651:c:b10000:c
+r:0:c:c:c:b688:b1651:b3577
+r:0:c:c:c:b688:b1651:b3577:f
+r:0:c:c:c:b688:b1651:b3577:c
+r:0:c:c:c:b688:b1651:b3577:c:c
+r:0:c:c:c:b688:b1651:b3577:c:c:c
+r:0:c:c:c:b688:b1651:b3577:c:c:b10000
+r:0:c:c:c:b688:b1651:b3577:c:c:b10000:f
+r:0:c:c:c:b688:b1651:b3577:c:c:b10000:c
+r:0:c:c:c:b688:b1651:b3577:b10000
+r:0:c:c:c:b688:b1651:b3577:b10000:f
+r:0:c:c:c:b688:b1651:b3577:b10000:c
+r:0:c:c:b275
+r:0:c:c:b275:f
+r:0:c:c:b275:c
+r:0:c:c:b275:c:c
+r:0:c:c:b275:c:c:c
+r:0:c:c:b275:c:c:b990
+r:0:c:c:b275:c:c:b990:f
+r:0:c:c:b275:c:c:b990:c
+r:0:c:c:b275:c:c:b990:b2255
+r:0:c:c:b275:c:c:b990:b2255:f
+r:0:c:c:b275:c:c:b990:b2255:c
+r:0:c:c:b275:c:c:b990:b2255:b4785
+r:0:c:c:b275:c:c:b990:b2255:b4785:f
+r:0:c:c:b275:c:c:b990:b2255:b4785:c
+r:0:c:c:b275:c:c:b990:b2255:b4785:b10000
+r:0:c:c:b275:c:c:b990:b2255:b4785:b10000:f
+r:0:c:c:b275:c:c:b990:b2255:b4785:b10000:c
+r:0:c:c:b275:c:c:b990:b2255:b10000
+r:0:c:c:b275:c:c:b990:b2255:b10000:f
+r:0:c:c:b275:c:c:b990:b2255:b10000:c
+r:0:c:c:b275:c:c:b1925
+r:0:c:c:b275:c:c:b1925:f
+r:0:c:c:b275:c:c:b1925:c
+r:0:c:c:b275:c:c:b1925:b4125
+r:0:c:c:b275:c:c:b1925:b4125:f
+r:0:c:c:b275:c:c:b1925:b4125:c
+r:0:c:c:b275:c:c:b1925:b4125:b10000
+r:0:c:c:b275:c:c:b1925:b4125:b10000:f
+r:0:c:c:b275:c:c:b1925:b4125:b10000:c
+r:0:c:c:b275:c:c:b1925:b10000
+r:0:c:c:b275:c:c:b1925:b10000:f
+r:0:c:c:b275:c:c:b1925:b10000:c
+r:0:c:c:b275:c:b550
+r:0:c:c:b275:c:b550:f
+r:0:c:c:b275:c:b550:c
+r:0:c:c:b275:c:b550:b1375
+r:0:c:c:b275:c:b550:b1375:f
+r:0:c:c:b275:c:b550:b1375:c
+r:0:c:c:b275:c:b550:b1375:b3025
+r:0:c:c:b275:c:b550:b1375:b3025:f
+r:0:c:c:b275:c:b550:b1375:b3025:c
+r:0:c:c:b275:c:b550:b1375:b3025:b6325
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:f
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:c
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:b10000
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:b10000:f
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:b10000:c
+r:0:c:c:b275:c:b550:b1375:b3025:b10000
+r:0:c:c:b275:c:b550:b1375:b3025:b10000:f
+r:0:c:c:b275:c:b550:b1375:b3025:b10000:c
+r:0:c:c:b275:c:b1100
+r:0:c:c:b275:c:b1100:f
+r:0:c:c:b275:c:b1100:c
+r:0:c:c:b275:c:b1100:b2475
+r:0:c:c:b275:c:b1100:b2475:f
+r:0:c:c:b275:c:b1100:b2475:c
+r:0:c:c:b275:c:b1100:b2475:b5225
+r:0:c:c:b275:c:b1100:b2475:b5225:f
+r:0:c:c:b275:c:b1100:b2475:b5225:c
+r:0:c:c:b275:c:b1100:b2475:b5225:b10000
+r:0:c:c:b275:c:b1100:b2475:b5225:b10000:f
+r:0:c:c:b275:c:b1100:b2475:b5225:b10000:c
+r:0:c:c:b275:c:b1100:b2475:b10000
+r:0:c:c:b275:c:b1100:b2475:b10000:f
+r:0:c:c:b275:c:b1100:b2475:b10000:c
+r:0:c:c:b275:c:b1925
+r:0:c:c:b275:c:b1925:f
+r:0:c:c:b275:c:b1925:c
+r:0:c:c:b275:c:b1925:b4125
+r:0:c:c:b275:c:b1925:b4125:f
+r:0:c:c:b275:c:b1925:b4125:c
+r:0:c:c:b275:c:b1925:b4125:b10000
+r:0:c:c:b275:c:b1925:b4125:b10000:f
+r:0:c:c:b275:c:b1925:b4125:b10000:c
+r:0:c:c:b275:c:b1925:b10000
+r:0:c:c:b275:c:b1925:b10000:f
+r:0:c:c:b275:c:b1925:b10000:c
+r:0:c:c:b275:b825
+r:0:c:c:b275:b825:f
+r:0:c:c:b275:b825:c
+r:0:c:c:b275:b825:c:c
+r:0:c:c:b275:b825:c:c:c
+r:0:c:c:b275:b825:c:c:b2255
+r:0:c:c:b275:b825:c:c:b2255:f
+r:0:c:c:b275:b825:c:c:b2255:c
+r:0:c:c:b275:b825:c:c:b2255:b4785
+r:0:c:c:b275:b825:c:c:b2255:b4785:f
+r:0:c:c:b275:b825:c:c:b2255:b4785:c
+r:0:c:c:b275:b825:c:c:b2255:b4785:b10000
+r:0:c:c:b275:b825:c:c:b2255:b4785:b10000:f
+r:0:c:c:b275:b825:c:c:b2255:b4785:b10000:c
+r:0:c:c:b275:b825:c:c:b2255:b10000
+r:0:c:c:b275:b825:c:c:b2255:b10000:f
+r:0:c:c:b275:b825:c:c:b2255:b10000:c
+r:0:c:c:b275:b825:c:c:b4125
+r:0:c:c:b275:b825:c:c:b4125:f
+r:0:c:c:b275:b825:c:c:b4125:c
+r:0:c:c:b275:b825:c:c:b4125:b10000
+r:0:c:c:b275:b825:c:c:b4125:b10000:f
+r:0:c:c:b275:b825:c:c:b4125:b10000:c
+r:0:c:c:b275:b825:b1925
+r:0:c:c:b275:b825:b1925:f
+r:0:c:c:b275:b825:b1925:c
+r:0:c:c:b275:b825:b1925:c:c
+r:0:c:c:b275:b825:b1925:c:c:c
+r:0:c:c:b275:b825:b1925:c:c:b4785
+r:0:c:c:b275:b825:b1925:c:c:b4785:f
+r:0:c:c:b275:b825:b1925:c:c:b4785:c
+r:0:c:c:b275:b825:b1925:c:c:b4785:b10000
+r:0:c:c:b275:b825:b1925:c:c:b4785:b10000:f
+r:0:c:c:b275:b825:b1925:c:c:b4785:b10000:c
+r:0:c:c:b275:b825:b1925:c:c:b10000
+r:0:c:c:b275:b825:b1925:c:c:b10000:f
+r:0:c:c:b275:b825:b1925:c:c:b10000:c
+r:0:c:c:b275:b825:b1925:c:b3025
+r:0:c:c:b275:b825:b1925:c:b3025:f
+r:0:c:c:b275:b825:b1925:c:b3025:c
+r:0:c:c:b275:b825:b1925:c:b3025:b6325
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:f
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:c
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:b10000
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:b10000:f
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:b10000:c
+r:0:c:c:b275:b825:b1925:c:b3025:b10000
+r:0:c:c:b275:b825:b1925:c:b3025:b10000:f
+r:0:c:c:b275:b825:b1925:c:b3025:b10000:c
+r:0:c:c:b275:b825:b1925:c:b5225
+r:0:c:c:b275:b825:b1925:c:b5225:f
+r:0:c:c:b275:b825:b1925:c:b5225:c
+r:0:c:c:b275:b825:b1925:c:b5225:b10000
+r:0:c:c:b275:b825:b1925:c:b5225:b10000:f
+r:0:c:c:b275:b825:b1925:c:b5225:b10000:c
+r:0:c:c:b275:b825:b1925:c:b10000
+r:0:c:c:b275:b825:b1925:c:b10000:f
+r:0:c:c:b275:b825:b1925:c:b10000:c
+r:0:c:c:b275:b825:b1925:b4125
+r:0:c:c:b275:b825:b1925:b4125:f
+r:0:c:c:b275:b825:b1925:b4125:c
+r:0:c:c:b275:b825:b1925:b4125:c:c
+r:0:c:c:b275:b825:b1925:b4125:c:c:c
+r:0:c:c:b275:b825:b1925:b4125:c:c:b10000
+r:0:c:c:b275:b825:b1925:b4125:c:c:b10000:f
+r:0:c:c:b275:b825:b1925:b4125:c:c:b10000:c
+r:0:c:c:b275:b825:b1925:b4125:b10000
+r:0:c:c:b275:b825:b1925:b4125:b10000:f
+r:0:c:c:b275:b825:b1925:b4125:b10000:c
+r:0:c:c:b522
+r:0:c:c:b522:f
+r:0:c:c:b522:c
+r:0:c:c:b522:c:c
+r:0:c:c:b522:c:c:c
+r:0:c:c:b522:c:c:b1558
+r:0:c:c:b522:c:c:b1558:f
+r:0:c:c:b522:c:c:b1558:c
+r:0:c:c:b522:c:c:b1558:b3391
+r:0:c:c:b522:c:c:b1558:b3391:f
+r:0:c:c:b522:c:c:b1558:b3391:c
+r:0:c:c:b522:c:c:b1558:b3391:b10000
+r:0:c:c:b522:c:c:b1558:b3391:b10000:f
+r:0:c:c:b522:c:c:b1558:b3391:b10000:c
+r:0:c:c:b522:c:c:b2913
+r:0:c:c:b522:c:c:b2913:f
+r:0:c:c:b522:c:c:b2913:c
+r:0:c:c:b522:c:c:b2913:b6101
+r:0:c:c:b522:c:c:b2913:b6101:f
+r:0:c:c:b522:c:c:b2913:b6101:c
+r:0:c:c:b522:c:c:b2913:b6101:b10000
+r:0:c:c:b522:c:c:b2913:b6101:b10000:f
+r:0:c:c:b522:c:c:b2913:b6101:b10000:c
+r:0:c:c:b522:c:c:b2913:b10000
+r:0:c:c:b522:c:c:b2913:b10000:f
+r:0:c:c:b522:c:c:b2913:b10000:c
+r:0:c:c:b522:c:b920
+r:0:c:c:b522:c:b920:f
+r:0:c:c:b522:c:b920:c
+r:0:c:c:b522:c:b920:b2115
+r:0:c:c:b522:c:b920:b2115:f
+r:0:c:c:b522:c:b920:b2115:c
+r:0:c:c:b522:c:b920:b2115:b4505
+r:0:c:c:b522:c:b920:b2115:b4505:f
+r:0:c:c:b522:c:b920:b2115:b4505:c
+r:0:c:c:b522:c:b920:b2115:b4505:b10000
+r:0:c:c:b522:c:b920:b2115:b4505:b10000:f
+r:0:c:c:b522:c:b920:b2115:b4505:b10000:c
+r:0:c:c:b522:c:b920:b2115:b10000
+r:0:c:c:b522:c:b920:b2115:b10000:f
+r:0:c:c:b522:c:b920:b2115:b10000:c
+r:0:c:c:b522:c:b1718
+r:0:c:c:b522:c:b1718:f
+r:0:c:c:b522:c:b1718:c
+r:0:c:c:b522:c:b1718:b3711
+r:0:c:c:b522:c:b1718:b3711:f
+r:0:c:c:b522:c:b1718:b3711:c
+r:0:c:c:b522:c:b1718:b3711:b10000
+r:0:c:c:b522:c:b1718:b3711:b10000:f
+r:0:c:c:b522:c:b1718:b3711:b10000:c
+r:0:c:c:b522:c:b2913
+r:0:c:c:b522:c:b2913:f
+r:0:c:c:b522:c:b2913:c
+r:0:c:c:b522:c:b2913:b6101
+r:0:c:c:b522:c:b2913:b6101:f
+r:0:c:c:b522:c:b2913:b6101:c
+r:0:c:c:b522:c:b2913:b6101:b10000
+r:0:c:c:b522:c:b2913:b6101:b10000:f
+r:0:c:c:b522:c:b2913:b6101:b10000:c
+r:0:c:c:b522:c:b2913:b10000
+r:0:c:c:b522:c:b2913:b10000:f
+r:0:c:c:b522:c:b2913:b10000:c
+r:0:c:c:b522:b1319
+r:0:c:c:b522:b1319:f
+r:0:c:c:b522:b1319:c
+r:0:c:c:b522:b1319:c:c
+r:0:c:c:b522:b1319:c:c:c
+r:0:c:c:b522:b1319:c:c:b3391
+r:0:c:c:b522:b1319:c:c:b3391:f
+r:0:c:c:b522:b1319:c:c:b3391:c
+r:0:c:c:b522:b1319:c:c:b3391:b10000
+r:0:c:c:b522:b1319:c:c:b3391:b10000:f
+r:0:c:c:b522:b1319:c:c:b3391:b10000:c
+r:0:c:c:b522:b1319:c:c:b6101
+r:0:c:c:b522:b1319:c:c:b6101:f
+r:0:c:c:b522:b1319:c:c:b6101:c
+r:0:c:c:b522:b1319:c:c:b6101:b10000
+r:0:c:c:b522:b1319:c:c:b6101:b10000:f
+r:0:c:c:b522:b1319:c:c:b6101:b10000:c
+r:0:c:c:b522:b1319:b2913
+r:0:c:c:b522:b1319:b2913:f
+r:0:c:c:b522:b1319:b2913:c
+r:0:c:c:b522:b1319:b2913:c:c
+r:0:c:c:b522:b1319:b2913:c:c:c
+r:0:c:c:b522:b1319:b2913:c:c:b10000
+r:0:c:c:b522:b1319:b2913:c:c:b10000:f
+r:0:c:c:b522:b1319:b2913:c:c:b10000:c
+r:0:c:c:b522:b1319:b2913:c:b4507
+r:0:c:c:b522:b1319:b2913:c:b4507:f
+r:0:c:c:b522:b1319:b2913:c:b4507:c
+r:0:c:c:b522:b1319:b2913:c:b4507:b10000
+r:0:c:c:b522:b1319:b2913:c:b4507:b10000:f
+r:0:c:c:b522:b1319:b2913:c:b4507:b10000:c
+r:0:c:c:b522:b1319:b2913:c:b10000
+r:0:c:c:b522:b1319:b2913:c:b10000:f
+r:0:c:c:b522:b1319:b2913:c:b10000:c
+r:0:c:c:b522:b1319:b2913:b6101
+r:0:c:c:b522:b1319:b2913:b6101:f
+r:0:c:c:b522:b1319:b2913:b6101:c
+r:0:c:c:b522:b1319:b2913:b6101:c:c
+r:0:c:c:b522:b1319:b2913:b6101:c:c:c
+r:0:c:c:b522:b1319:b2913:b6101:c:c:b10000
+r:0:c:c:b522:b1319:b2913:b6101:c:c:b10000:f
+r:0:c:c:b522:b1319:b2913:b6101:c:c:b10000:c
+r:0:c:c:b522:b1319:b2913:b6101:b10000
+r:0:c:c:b522:b1319:b2913:b6101:b10000:f
+r:0:c:c:b522:b1319:b2913:b6101:b10000:c
+r:0:c:b468
+r:0:c:b468:f
+r:0:c:b468:c
+r:0:c:b468:c:c
+r:0:c:b468:c:c:c
+r:0:c:b468:c:c:c:c
+r:0:c:b468:c:c:c:c:c
+r:0:c:b468:c:c:c:c:b1434
+r:0:c:b468:c:c:c:c:b1434:f
+r:0:c:b468:c:c:c:c:b1434:c
+r:0:c:b468:c:c:c:c:b1434:b3143
+r:0:c:b468:c:c:c:c:b1434:b3143:f
+r:0:c:b468:c:c:c:c:b1434:b3143:c
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:f
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:c
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:b10000
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:b10000:f
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:b10000:c
+r:0:c:b468:c:c:c:c:b1434:b3143:b10000
+r:0:c:b468:c:c:c:c:b1434:b3143:b10000:f
+r:0:c:b468:c:c:c:c:b1434:b3143:b10000:c
+r:0:c:b468:c:c:c:c:b2697
+r:0:c:b468:c:c:c:c:b2697:f
+r:0:c:b468:c:c:c:c:b2697:c
+r:0:c:b468:c:c:c:c:b2697:b5669
+r:0:c:b468:c:c:c:c:b2697:b5669:f
+r:0:c:b468:c:c:c:c:b2697:b5669:c
+r:0:c:b468:c:c:c:c:b2697:b5669:b10000
+r:0:c:b468:c:c:c:c:b2697:b5669:b10000:f
+r:0:c:b468:c:c:c:c:b2697:b5669:b10000:c
+r:0:c:b468:c:c:c:c:b2697:b10000
+r:0:c:b468:c:c:c:c:b2697:b10000:f
+r:0:c:b468:c:c:c:c:b2697:b10000:c
+r:0:c:b468:c:c:c:b840
+r:0:c:b468:c:c:c:b840:f
+r:0:c:b468:c:c:c:b840:c
+r:0:c:b468:c:c:c:b840:b1955
+r:0:c:b468:c:c:c:b840:b1955:f
+r:0:c:b468:c:c:c:b840:b1955:c
+r:0:c:b468:c:c:c:b840:b1955:b4185
+r:0:c:b468:c:c:c:b840:b1955:b4185:f
+r:0:c:b468:c:c:c:b840:b1955:b4185:c
+r:0:c:b468:c:c:c:b840:b1955:b4185:b10000
+r:0:c:b468:c:c:c:b840:b1955:b4185:b10000:f
+r:0:c:b468:c:c:c:b840:b1955:b4185:b10000:c
+r:0:c:b468:c:c:c:b840:b1955:b10000
+r:0:c:b468:c:c:c:b840:b1955:b10000:f
+r:0:c:b468:c:c:c:b840:b1955:b10000:c
+r:0:c:b468:c:c:c:b1582
+r:0:c:b468:c:c:c:b1582:f
+r:0:c:b468:c:c:c:b1582:c
+r:0:c:b468:c:c:c:b1582:b3439
+r:0:c:b468:c:c:c:b1582:b3439:f
+r:0:c:b468:c:c:c:b1582:b3439:c
+r:0:c:b468:c:c:c:b1582:b3439:b10000
+r:0:c:b468:c:c:c:b1582:b3439:b10000:f
+r:0:c:b468:c:c:c:b1582:b3439:b10000:c
+r:0:c:b468:c:c:c:b2697
+r:0:c:b468:c:c:c:b2697:f
+r:0:c:b468:c:c:c:b2697:c
+r:0:c:b468:c:c:c:b2697:b5669
+r:0:c:b468:c:c:c:b2697:b5669:f
+r:0:c:b468:c:c:c:b2697:b5669:c
+r:0:c:b468:c:c:c:b2697:b5669:b10000
+r:0:c:b468:c:c:c:b2697:b5669:b10000:f
+r:0:c:b468:c:c:c:b2697:b5669:b10000:c
+r:0:c:b468:c:c:c:b2697:b10000
+r:0:c:b468:c:c:c:b2697:b10000:f
+r:0:c:b468:c:c:c:b2697:b10000:c
+r:0:c:b468:c:c:b1449
+r:0:c:b468:c:c:b1449:f
+r:0:c:b468:c:c:b1449:c
+r:0:c:b468:c:c:b1449:c:c
+r:0:c:b468:c:c:b1449:c:c:c
+r:0:c:b468:c:c:b1449:c:c:b3690
+r:0:c:b468:c:c:b1449:c:c:b3690:f
+r:0:c:b468:c:c:b1449:c:c:b3690:c
+r:0:c:b468:c:c:b1449:c:c:b3690:b10000
+r:0:c:b468:c:c:b1449:c:c:b3690:b10000:f
+r:0:c:b468:c:c:b1449:c:c:b3690:b10000:c
+r:0:c:b468:c:c:b1449:c:c:b6621
+r:0:c:b468:c:c:b1449:c:c:b6621:f
+r:0:c:b468:c:c:b1449:c:c:b6621:c
+r:0:c:b468:c:c:b1449:c:c:b6621:b10000
+r:0:c:b468:c:c:b1449:c:c:b6621:b10000:f
+r:0:c:b468:c:c:b1449:c:c:b6621:b10000:c
+r:0:c:b468:c:c:b1449:b3173
+r:0:c:b468:c:c:b1449:b3173:f
+r:0:c:b468:c:c:b1449:b3173:c
+r:0:c:b468:c:c:b1449:b3173:c:c
+r:0:c:b468:c:c:b1449:b3173:c:c:c
+r:0:c:b468:c:c:b1449:b3173:c:c:b10000
+r:0:c:b468:c:c:b1449:b3173:c:c:b10000:f
+r:0:c:b468:c:c:b1449:b3173:c:c:b10000:c
+r:0:c:b468:c:c:b1449:b3173:c:b4897
+r:0:c:b468:c:c:b1449:b3173:c:b4897:f
+r:0:c:b468:c:c:b1449:b3173:c:b4897:c
+r:0:c:b468:c:c:b1449:b3173:c:b4897:b10000
+r:0:c:b468:c:c:b1449:b3173:c:b4897:b10000:f
+r:0:c:b468:c:c:b1449:b3173:c:b4897:b10000:c
+r:0:c:b468:c:c:b1449:b3173:c:b10000
+r:0:c:b468:c:c:b1449:b3173:c:b10000:f
+r:0:c:b468:c:c:b1449:b3173:c:b10000:c
+r:0:c:b468:c:c:b1449:b3173:b6621
+r:0:c:b468:c:c:b1449:b3173:b6621:f
+r:0:c:b468:c:c:b1449:b3173:b6621:c
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:c
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:b10000
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:b10000:f
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:b10000:c
+r:0:c:b468:c:c:b1449:b3173:b6621:b10000
+r:0:c:b468:c:c:b1449:b3173:b6621:b10000:f
+r:0:c:b468:c:c:b1449:b3173:b6621:b10000:c
+r:0:c:b468:c:c:b2326
+r:0:c:b468:c:c:b2326:f
+r:0:c:b468:c:c:b2326:c
+r:0:c:b468:c:c:b2326:c:c
+r:0:c:b468:c:c:b2326:c:c:c
+r:0:c:b468:c:c:b2326:c:c:b5707
+r:0:c:b468:c:c:b2326:c:c:b5707:f
+r:0:c:b468:c:c:b2326:c:c:b5707:c
+r:0:c:b468:c:c:b2326:c:c:b5707:b10000
+r:0:c:b468:c:c:b2326:c:c:b5707:b10000:f
+r:0:c:b468:c:c:b2326:c:c:b5707:b10000:c
+r:0:c:b468:c:c:b2326:c:c:b10000
+r:0:c:b468:c:c:b2326:c:c:b10000:f
+r:0:c:b468:c:c:b2326:c:c:b10000:c
+r:0:c:b468:c:c:b2326:b4927
+r:0:c:b468:c:c:b2326:b4927:f
+r:0:c:b468:c:c:b2326:b4927:c
+r:0:c:b468:c:c:b2326:b4927:c:c
+r:0:c:b468:c:c:b2326:b4927:c:c:c
+r:0:c:b468:c:c:b2326:b4927:c:c:b10000
+r:0:c:b468:c:c:b2326:b4927:c:c:b10000:f
+r:0:c:b468:c:c:b2326:b4927:c:c:b10000:c
+r:0:c:b468:c:c:b2326:b4927:c:b10000
+r:0:c:b468:c:c:b2326:b4927:c:b10000:f
+r:0:c:b468:c:c:b2326:b4927:c:b10000:c
+r:0:c:b468:c:c:b2326:b4927:b10000
+r:0:c:b468:c:c:b2326:b4927:b10000:f
+r:0:c:b468:c:c:b2326:b4927:b10000:c
+r:0:c:b468:b1211
+r:0:c:b468:b1211:f
+r:0:c:b468:b1211:c
+r:0:c:b468:b1211:c:c
+r:0:c:b468:b1211:c:c:c
+r:0:c:b468:b1211:c:c:c:c
+r:0:c:b468:b1211:c:c:c:c:c
+r:0:c:b468:b1211:c:c:c:c:b3143
+r:0:c:b468:b1211:c:c:c:c:b3143:f
+r:0:c:b468:b1211:c:c:c:c:b3143:c
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:f
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:c
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:b10000
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:b10000:f
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:b10000:c
+r:0:c:b468:b1211:c:c:c:c:b3143:b10000
+r:0:c:b468:b1211:c:c:c:c:b3143:b10000:f
+r:0:c:b468:b1211:c:c:c:c:b3143:b10000:c
+r:0:c:b468:b1211:c:c:c:c:b5669
+r:0:c:b468:b1211:c:c:c:c:b5669:f
+r:0:c:b468:b1211:c:c:c:c:b5669:c
+r:0:c:b468:b1211:c:c:c:c:b5669:b10000
+r:0:c:b468:b1211:c:c:c:c:b5669:b10000:f
+r:0:c:b468:b1211:c:c:c:c:b5669:b10000:c
+r:0:c:b468:b1211:c:c:c:b1954
+r:0:c:b468:b1211:c:c:c:b1954:f
+r:0:c:b468:b1211:c:c:c:b1954:c
+r:0:c:b468:b1211:c:c:c:b1954:b4183
+r:0:c:b468:b1211:c:c:c:b1954:b4183:f
+r:0:c:b468:b1211:c:c:c:b1954:b4183:c
+r:0:c:b468:b1211:c:c:c:b1954:b4183:b10000
+r:0:c:b468:b1211:c:c:c:b1954:b4183:b10000:f
+r:0:c:b468:b1211:c:c:c:b1954:b4183:b10000:c
+r:0:c:b468:b1211:c:c:c:b1954:b10000
+r:0:c:b468:b1211:c:c:c:b1954:b10000:f
+r:0:c:b468:b1211:c:c:c:b1954:b10000:c
+r:0:c:b468:b1211:c:c:c:b3440
+r:0:c:b468:b1211:c:c:c:b3440:f
+r:0:c:b468:b1211:c:c:c:b3440:c
+r:0:c:b468:b1211:c:c:c:b3440:b10000
+r:0:c:b468:b1211:c:c:c:b3440:b10000:f
+r:0:c:b468:b1211:c:c:c:b3440:b10000:c
+r:0:c:b468:b1211:c:c:c:b5669
+r:0:c:b468:b1211:c:c:c:b5669:f
+r:0:c:b468:b1211:c:c:c:b5669:c
+r:0:c:b468:b1211:c:c:c:b5669:b10000
+r:0:c:b468:b1211:c:c:c:b5669:b10000:f
+r:0:c:b468:b1211:c:c:c:b5669:b10000:c
+r:0:c:b468:b1211:c:c:b3173
+r:0:c:b468:b1211:c:c:b3173:f
+r:0:c:b468:b1211:c:c:b3173:c
+r:0:c:b468:b1211:c:c:b3173:c:c
+r:0:c:b468:b1211:c:c:b3173:c:c:c
+r:0:c:b468:b1211:c:c:b3173:c:c:b10000
+r:0:c:b468:b1211:c:c:b3173:c:c:b10000:f
+r:0:c:b468:b1211:c:c:b3173:c:c:b10000:c
+r:0:c:b468:b1211:c:c:b3173:b6621
+r:0:c:b468:b1211:c:c:b3173:b6621:f
+r:0:c:b468:b1211:c:c:b3173:b6621:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:b10000
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:b10000:f
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:b10000:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:b10000
+r:0:c:b468:b1211:c:c:b3173:b6621:c:b10000:f
+r:0:c:b468:b1211:c:c:b3173:b6621:c:b10000:c
+r:0:c:b468:b1211:c:c:b3173:b6621:b10000
+r:0:c:b468:b1211:c:c:b3173:b6621:b10000:f
+r:0:c:b468:b1211:c:c:b3173:b6621:b10000:c
+r:0:c:b468:b1211:c:c:b4926
+r:0:c:b468:b1211:c:c:b4926:f
+r:0:c:b468:b1211:c:c:b4926:c
+r:0:c:b468:b1211:c:c:b4926:c:c
+r:0:c:b468:b1211:c:c:b4926:c:c:c
+r:0:c:b468:b1211:c:c:b4926:c:c:b10000
+r:0:c:b468:b1211:c:c:b4926:c:c:b10000:f
+r:0:c:b468:b1211:c:c:b4926:c:c:b10000:c
+r:0:c:b468:b1211:c:c:b4926:b10000
+r:0:c:b468:b1211:c:c:b4926:b10000:f
+r:0:c:b468:b1211:c:c:b4926:b10000:c
+r:0:c:b468:b1211:c:b2697
+r:0:c:b468:b1211:c:b2697:f
+r:0:c:b468:b1211:c:b2697:c
+r:0:c:b468:b1211:c:b2697:c:c
+r:0:c:b468:b1211:c:b2697:c:c:c
+r:0:c:b468:b1211:c:b2697:c:c:b6561
+r:0:c:b468:b1211:c:b2697:c:c:b6561:f
+r:0:c:b468:b1211:c:b2697:c:c:b6561:c
+r:0:c:b468:b1211:c:b2697:c:c:b6561:b10000
+r:0:c:b468:b1211:c:b2697:c:c:b6561:b10000:f
+r:0:c:b468:b1211:c:b2697:c:c:b6561:b10000:c
+r:0:c:b468:b1211:c:b2697:c:c:b10000
+r:0:c:b468:b1211:c:b2697:c:c:b10000:f
+r:0:c:b468:b1211:c:b2697:c:c:b10000:c
+r:0:c:b468:b1211:c:b2697:c:b4183
+r:0:c:b468:b1211:c:b2697:c:b4183:f
+r:0:c:b468:b1211:c:b2697:c:b4183:c
+r:0:c:b468:b1211:c:b2697:c:b4183:b10000
+r:0:c:b468:b1211:c:b2697:c:b4183:b10000:f
+r:0:c:b468:b1211:c:b2697:c:b4183:b10000:c
+r:0:c:b468:b1211:c:b2697:c:b10000
+r:0:c:b468:b1211:c:b2697:c:b10000:f
+r:0:c:b468:b1211:c:b2697:c:b10000:c
+r:0:c:b468:b1211:c:b2697:b5669
+r:0:c:b468:b1211:c:b2697:b5669:f
+r:0:c:b468:b1211:c:b2697:b5669:c
+r:0:c:b468:b1211:c:b2697:b5669:c:c
+r:0:c:b468:b1211:c:b2697:b5669:c:c:c
+r:0:c:b468:b1211:c:b2697:b5669:c:c:b10000
+r:0:c:b468:b1211:c:b2697:b5669:c:c:b10000:f
+r:0:c:b468:b1211:c:b2697:b5669:c:c:b10000:c
+r:0:c:b468:b1211:c:b2697:b5669:b10000
+r:0:c:b468:b1211:c:b2697:b5669:b10000:f
+r:0:c:b468:b1211:c:b2697:b5669:b10000:c
+r:0:c:b468:b1211:c:b4034
+r:0:c:b468:b1211:c:b4034:f
+r:0:c:b468:b1211:c:b4034:c
+r:0:c:b468:b1211:c:b4034:c:c
+r:0:c:b468:b1211:c:b4034:c:c:c
+r:0:c:b468:b1211:c:b4034:c:c:b10000
+r:0:c:b468:b1211:c:b4034:c:c:b10000:f
+r:0:c:b468:b1211:c:b4034:c:c:b10000:c
+r:0:c:b468:b1211:c:b4034:c:b6188
+r:0:c:b468:b1211:c:b4034:c:b6188:f
+r:0:c:b468:b1211:c:b4034:c:b6188:c
+r:0:c:b468:b1211:c:b4034:c:b6188:b10000
+r:0:c:b468:b1211:c:b4034:c:b6188:b10000:f
+r:0:c:b468:b1211:c:b4034:c:b6188:b10000:c
+r:0:c:b468:b1211:c:b4034:c:b10000
+r:0:c:b468:b1211:c:b4034:c:b10000:f
+r:0:c:b468:b1211:c:b4034:c:b10000:c
+r:0:c:b468:b1211:c:b4034:b10000
+r:0:c:b468:b1211:c:b4034:b10000:f
+r:0:c:b468:b1211:c:b4034:b10000:c
+r:0:c:b468:b1211:b2697
+r:0:c:b468:b1211:b2697:f
+r:0:c:b468:b1211:b2697:c
+r:0:c:b468:b1211:b2697:c:c
+r:0:c:b468:b1211:b2697:c:c:c
+r:0:c:b468:b1211:b2697:c:c:c:c
+r:0:c:b468:b1211:b2697:c:c:c:c:c
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:f
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:c
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:b10000
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:b10000:c
+r:0:c:b468:b1211:b2697:c:c:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:c:c:c:b4183
+r:0:c:b468:b1211:b2697:c:c:c:b4183:f
+r:0:c:b468:b1211:b2697:c:c:c:b4183:c
+r:0:c:b468:b1211:b2697:c:c:c:b4183:b10000
+r:0:c:b468:b1211:b2697:c:c:c:b4183:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:b4183:b10000:c
+r:0:c:b468:b1211:b2697:c:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:c:c:b6620
+r:0:c:b468:b1211:b2697:c:c:b6620:f
+r:0:c:b468:b1211:b2697:c:c:b6620:c
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:c
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:b10000:c
+r:0:c:b468:b1211:b2697:c:c:b6620:b10000
+r:0:c:b468:b1211:b2697:c:c:b6620:b10000:f
+r:0:c:b468:b1211:b2697:c:c:b6620:b10000:c
+r:0:c:b468:b1211:b2697:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669
+r:0:c:b468:b1211:b2697:b5669:f
+r:0:c:b468:b1211:b2697:b5669:c
+r:0:c:b468:b1211:b2697:b5669:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:c:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:b10000
+r:0:c:b468:b1211:b2697:b5669:b10000:f
+r:0:c:b468:b1211:b2697:b5669:b10000:c
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+add_line ok!
+END
+r
+r:0
+r:0:c
+r:0:c:c
+r:0:c:c:c
+r:0:c:c:c:c
+r:0:c:c:c:c:c
+r:0:c:c:c:c:c:c
+r:0:c:c:c:c:c:b358
+r:0:c:c:c:c:c:b358:f
+r:0:c:c:c:c:c:b358:c
+r:0:c:c:c:c:c:b358:b991
+r:0:c:c:c:c:c:b358:b991:f
+r:0:c:c:c:c:c:b358:b991:c
+r:0:c:c:c:c:c:b358:b991:b2257
+r:0:c:c:c:c:c:b358:b991:b2257:f
+r:0:c:c:c:c:c:b358:b991:b2257:c
+r:0:c:c:c:c:c:b358:b991:b2257:b4789
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:f
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:c
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:b10000
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:b10000:f
+r:0:c:c:c:c:c:b358:b991:b2257:b4789:b10000:c
+r:0:c:c:c:c:c:b358:b991:b2257:b10000
+r:0:c:c:c:c:c:b358:b991:b2257:b10000:f
+r:0:c:c:c:c:c:b358:b991:b2257:b10000:c
+r:0:c:c:c:c:c:b825
+r:0:c:c:c:c:c:b825:f
+r:0:c:c:c:c:c:b825:c
+r:0:c:c:c:c:c:b825:b1925
+r:0:c:c:c:c:c:b825:b1925:f
+r:0:c:c:c:c:c:b825:b1925:c
+r:0:c:c:c:c:c:b825:b1925:b4125
+r:0:c:c:c:c:c:b825:b1925:b4125:f
+r:0:c:c:c:c:c:b825:b1925:b4125:c
+r:0:c:c:c:c:c:b825:b1925:b4125:b10000
+r:0:c:c:c:c:c:b825:b1925:b4125:b10000:f
+r:0:c:c:c:c:c:b825:b1925:b4125:b10000:c
+r:0:c:c:c:c:c:b825:b1925:b10000
+r:0:c:c:c:c:c:b825:b1925:b10000:f
+r:0:c:c:c:c:c:b825:b1925:b10000:c
+r:0:c:c:c:c:b138
+r:0:c:c:c:c:b138:f
+r:0:c:c:c:c:b138:c
+r:0:c:c:c:c:b138:b551
+r:0:c:c:c:c:b138:b551:f
+r:0:c:c:c:c:b138:b551:c
+r:0:c:c:c:c:b138:b551:b1377
+r:0:c:c:c:c:b138:b551:b1377:f
+r:0:c:c:c:c:b138:b551:b1377:c
+r:0:c:c:c:c:b138:b551:b1377:b3029
+r:0:c:c:c:c:b138:b551:b1377:b3029:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:c
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:c
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:b10000
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:b10000:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:b6333:b10000:c
+r:0:c:c:c:c:b138:b551:b1377:b3029:b10000
+r:0:c:c:c:c:b138:b551:b1377:b3029:b10000:f
+r:0:c:c:c:c:b138:b551:b1377:b3029:b10000:c
+r:0:c:c:c:c:b412
+r:0:c:c:c:c:b412:f
+r:0:c:c:c:c:b412:c
+r:0:c:c:c:c:b412:b1099
+r:0:c:c:c:c:b412:b1099:f
+r:0:c:c:c:c:b412:b1099:c
+r:0:c:c:c:c:b412:b1099:b2473
+r:0:c:c:c:c:b412:b1099:b2473:f
+r:0:c:c:c:c:b412:b1099:b2473:c
+r:0:c:c:c:c:b412:b1099:b2473:b5221
+r:0:c:c:c:c:b412:b1099:b2473:b5221:f
+r:0:c:c:c:c:b412:b1099:b2473:b5221:c
+r:0:c:c:c:c:b412:b1099:b2473:b5221:b10000
+r:0:c:c:c:c:b412:b1099:b2473:b5221:b10000:f
+r:0:c:c:c:c:b412:b1099:b2473:b5221:b10000:c
+r:0:c:c:c:c:b412:b1099:b2473:b10000
+r:0:c:c:c:c:b412:b1099:b2473:b10000:f
+r:0:c:c:c:c:b412:b1099:b2473:b10000:c
+r:0:c:c:c:c:b825
+r:0:c:c:c:c:b825:f
+r:0:c:c:c:c:b825:c
+r:0:c:c:c:c:b825:b1925
+r:0:c:c:c:c:b825:b1925:f
+r:0:c:c:c:c:b825:b1925:c
+r:0:c:c:c:c:b825:b1925:b4125
+r:0:c:c:c:c:b825:b1925:b4125:f
+r:0:c:c:c:c:b825:b1925:b4125:c
+r:0:c:c:c:c:b825:b1925:b4125:b10000
+r:0:c:c:c:c:b825:b1925:b4125:b10000:f
+r:0:c:c:c:c:b825:b1925:b4125:b10000:c
+r:0:c:c:c:c:b825:b1925:b10000
+r:0:c:c:c:c:b825:b1925:b10000:f
+r:0:c:c:c:c:b825:b1925:b10000:c
+r:0:c:c:c:b363
+r:0:c:c:c:b363:f
+r:0:c:c:c:b363:c
+r:0:c:c:c:b363:c:c
+r:0:c:c:c:b363:c:c:c
+r:0:c:c:c:b363:c:c:b1192
+r:0:c:c:c:b363:c:c:b1192:f
+r:0:c:c:c:b363:c:c:b1192:c
+r:0:c:c:c:b363:c:c:b1192:b2659
+r:0:c:c:c:b363:c:c:b1192:b2659:f
+r:0:c:c:c:b363:c:c:b1192:b2659:c
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:f
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:c
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:b10000
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:b10000:f
+r:0:c:c:c:b363:c:c:b1192:b2659:b5593:b10000:c
+r:0:c:c:c:b363:c:c:b1192:b2659:b10000
+r:0:c:c:c:b363:c:c:b1192:b2659:b10000:f
+r:0:c:c:c:b363:c:c:b1192:b2659:b10000:c
+r:0:c:c:c:b363:c:c:b2277
+r:0:c:c:c:b363:c:c:b2277:f
+r:0:c:c:c:b363:c:c:b2277:c
+r:0:c:c:c:b363:c:c:b2277:b4829
+r:0:c:c:c:b363:c:c:b2277:b4829:f
+r:0:c:c:c:b363:c:c:b2277:b4829:c
+r:0:c:c:c:b363:c:c:b2277:b4829:b10000
+r:0:c:c:c:b363:c:c:b2277:b4829:b10000:f
+r:0:c:c:c:b363:c:c:b2277:b4829:b10000:c
+r:0:c:c:c:b363:c:c:b2277:b10000
+r:0:c:c:c:b363:c:c:b2277:b10000:f
+r:0:c:c:c:b363:c:c:b2277:b10000:c
+r:0:c:c:c:b363:b1001
+r:0:c:c:c:b363:b1001:f
+r:0:c:c:c:b363:b1001:c
+r:0:c:c:c:b363:b1001:c:c
+r:0:c:c:c:b363:b1001:c:c:c
+r:0:c:c:c:b363:b1001:c:c:b2660
+r:0:c:c:c:b363:b1001:c:c:b2660:f
+r:0:c:c:c:b363:b1001:c:c:b2660:c
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:f
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:c
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:b10000
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:b10000:f
+r:0:c:c:c:b363:b1001:c:c:b2660:b5595:b10000:c
+r:0:c:c:c:b363:b1001:c:c:b2660:b10000
+r:0:c:c:c:b363:b1001:c:c:b2660:b10000:f
+r:0:c:c:c:b363:b1001:c:c:b2660:b10000:c
+r:0:c:c:c:b363:b1001:c:c:b4829
+r:0:c:c:c:b363:b1001:c:c:b4829:f
+r:0:c:c:c:b363:b1001:c:c:b4829:c
+r:0:c:c:c:b363:b1001:c:c:b4829:b10000
+r:0:c:c:c:b363:b1001:c:c:b4829:b10000:f
+r:0:c:c:c:b363:b1001:c:c:b4829:b10000:c
+r:0:c:c:c:b363:b1001:c:b1639
+r:0:c:c:c:b363:b1001:c:b1639:f
+r:0:c:c:c:b363:b1001:c:b1639:c
+r:0:c:c:c:b363:b1001:c:b1639:b3553
+r:0:c:c:c:b363:b1001:c:b1639:b3553:f
+r:0:c:c:c:b363:b1001:c:b1639:b3553:c
+r:0:c:c:c:b363:b1001:c:b1639:b3553:b10000
+r:0:c:c:c:b363:b1001:c:b1639:b3553:b10000:f
+r:0:c:c:c:b363:b1001:c:b1639:b3553:b10000:c
+r:0:c:c:c:b363:b1001:c:b2915
+r:0:c:c:c:b363:b1001:c:b2915:f
+r:0:c:c:c:b363:b1001:c:b2915:c
+r:0:c:c:c:b363:b1001:c:b2915:b6105
+r:0:c:c:c:b363:b1001:c:b2915:b6105:f
+r:0:c:c:c:b363:b1001:c:b2915:b6105:c
+r:0:c:c:c:b363:b1001:c:b2915:b6105:b10000
+r:0:c:c:c:b363:b1001:c:b2915:b6105:b10000:f
+r:0:c:c:c:b363:b1001:c:b2915:b6105:b10000:c
+r:0:c:c:c:b363:b1001:c:b2915:b10000
+r:0:c:c:c:b363:b1001:c:b2915:b10000:f
+r:0:c:c:c:b363:b1001:c:b2915:b10000:c
+r:0:c:c:c:b363:b1001:c:b4829
+r:0:c:c:c:b363:b1001:c:b4829:f
+r:0:c:c:c:b363:b1001:c:b4829:c
+r:0:c:c:c:b363:b1001:c:b4829:b10000
+r:0:c:c:c:b363:b1001:c:b4829:b10000:f
+r:0:c:c:c:b363:b1001:c:b4829:b10000:c
+r:0:c:c:c:b363:b1001:b2277
+r:0:c:c:c:b363:b1001:b2277:f
+r:0:c:c:c:b363:b1001:b2277:c
+r:0:c:c:c:b363:b1001:b2277:c:c
+r:0:c:c:c:b363:b1001:b2277:c:c:c
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:f
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:c
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:b10000
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:b10000:f
+r:0:c:c:c:b363:b1001:b2277:c:c:b5595:b10000:c
+r:0:c:c:c:b363:b1001:b2277:c:c:b10000
+r:0:c:c:c:b363:b1001:b2277:c:c:b10000:f
+r:0:c:c:c:b363:b1001:b2277:c:c:b10000:c
+r:0:c:c:c:b363:b1001:b2277:b4829
+r:0:c:c:c:b363:b1001:b2277:b4829:f
+r:0:c:c:c:b363:b1001:b2277:b4829:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:b10000
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:b10000:f
+r:0:c:c:c:b363:b1001:b2277:b4829:c:c:b10000:c
+r:0:c:c:c:b363:b1001:b2277:b4829:c:b10000
+r:0:c:c:c:b363:b1001:b2277:b4829:c:b10000:f
+r:0:c:c:c:b363:b1001:b2277:b4829:c:b10000:c
+r:0:c:c:c:b363:b1001:b2277:b4829:b10000
+r:0:c:c:c:b363:b1001:b2277:b4829:b10000:f
+r:0:c:c:c:b363:b1001:b2277:b4829:b10000:c
+r:0:c:c:c:b688
+r:0:c:c:c:b688:f
+r:0:c:c:c:b688:c
+r:0:c:c:c:b688:c:c
+r:0:c:c:c:b688:c:c:c
+r:0:c:c:c:b688:c:c:b1940
+r:0:c:c:c:b688:c:c:b1940:f
+r:0:c:c:c:b688:c:c:b1940:c
+r:0:c:c:c:b688:c:c:b1940:b4155
+r:0:c:c:c:b688:c:c:b1940:b4155:f
+r:0:c:c:c:b688:c:c:b1940:b4155:c
+r:0:c:c:c:b688:c:c:b1940:b4155:b10000
+r:0:c:c:c:b688:c:c:b1940:b4155:b10000:f
+r:0:c:c:c:b688:c:c:b1940:b4155:b10000:c
+r:0:c:c:c:b688:c:c:b1940:b10000
+r:0:c:c:c:b688:c:c:b1940:b10000:f
+r:0:c:c:c:b688:c:c:b1940:b10000:c
+r:0:c:c:c:b688:c:c:b3577
+r:0:c:c:c:b688:c:c:b3577:f
+r:0:c:c:c:b688:c:c:b3577:c
+r:0:c:c:c:b688:c:c:b3577:b10000
+r:0:c:c:c:b688:c:c:b3577:b10000:f
+r:0:c:c:c:b688:c:c:b3577:b10000:c
+r:0:c:c:c:b688:b1651
+r:0:c:c:c:b688:b1651:f
+r:0:c:c:c:b688:b1651:c
+r:0:c:c:c:b688:b1651:c:c
+r:0:c:c:c:b688:b1651:c:c:c
+r:0:c:c:c:b688:b1651:c:c:b4155
+r:0:c:c:c:b688:b1651:c:c:b4155:f
+r:0:c:c:c:b688:b1651:c:c:b4155:c
+r:0:c:c:c:b688:b1651:c:c:b4155:b10000
+r:0:c:c:c:b688:b1651:c:c:b4155:b10000:f
+r:0:c:c:c:b688:b1651:c:c:b4155:b10000:c
+r:0:c:c:c:b688:b1651:c:c:b10000
+r:0:c:c:c:b688:b1651:c:c:b10000:f
+r:0:c:c:c:b688:b1651:c:c:b10000:c
+r:0:c:c:c:b688:b1651:c:b2614
+r:0:c:c:c:b688:b1651:c:b2614:f
+r:0:c:c:c:b688:b1651:c:b2614:c
+r:0:c:c:c:b688:b1651:c:b2614:b5503
+r:0:c:c:c:b688:b1651:c:b2614:b5503:f
+r:0:c:c:c:b688:b1651:c:b2614:b5503:c
+r:0:c:c:c:b688:b1651:c:b2614:b5503:b10000
+r:0:c:c:c:b688:b1651:c:b2614:b5503:b10000:f
+r:0:c:c:c:b688:b1651:c:b2614:b5503:b10000:c
+r:0:c:c:c:b688:b1651:c:b2614:b10000
+r:0:c:c:c:b688:b1651:c:b2614:b10000:f
+r:0:c:c:c:b688:b1651:c:b2614:b10000:c
+r:0:c:c:c:b688:b1651:c:b4540
+r:0:c:c:c:b688:b1651:c:b4540:f
+r:0:c:c:c:b688:b1651:c:b4540:c
+r:0:c:c:c:b688:b1651:c:b4540:b10000
+r:0:c:c:c:b688:b1651:c:b4540:b10000:f
+r:0:c:c:c:b688:b1651:c:b4540:b10000:c
+r:0:c:c:c:b688:b1651:c:b10000
+r:0:c:c:c:b688:b1651:c:b10000:f
+r:0:c:c:c:b688:b1651:c:b10000:c
+r:0:c:c:c:b688:b1651:b3577
+r:0:c:c:c:b688:b1651:b3577:f
+r:0:c:c:c:b688:b1651:b3577:c
+r:0:c:c:c:b688:b1651:b3577:c:c
+r:0:c:c:c:b688:b1651:b3577:c:c:c
+r:0:c:c:c:b688:b1651:b3577:c:c:b10000
+r:0:c:c:c:b688:b1651:b3577:c:c:b10000:f
+r:0:c:c:c:b688:b1651:b3577:c:c:b10000:c
+r:0:c:c:c:b688:b1651:b3577:b10000
+r:0:c:c:c:b688:b1651:b3577:b10000:f
+r:0:c:c:c:b688:b1651:b3577:b10000:c
+r:0:c:c:b275
+r:0:c:c:b275:f
+r:0:c:c:b275:c
+r:0:c:c:b275:c:c
+r:0:c:c:b275:c:c:c
+r:0:c:c:b275:c:c:b990
+r:0:c:c:b275:c:c:b990:f
+r:0:c:c:b275:c:c:b990:c
+r:0:c:c:b275:c:c:b990:b2255
+r:0:c:c:b275:c:c:b990:b2255:f
+r:0:c:c:b275:c:c:b990:b2255:c
+r:0:c:c:b275:c:c:b990:b2255:b4785
+r:0:c:c:b275:c:c:b990:b2255:b4785:f
+r:0:c:c:b275:c:c:b990:b2255:b4785:c
+r:0:c:c:b275:c:c:b990:b2255:b4785:b10000
+r:0:c:c:b275:c:c:b990:b2255:b4785:b10000:f
+r:0:c:c:b275:c:c:b990:b2255:b4785:b10000:c
+r:0:c:c:b275:c:c:b990:b2255:b10000
+r:0:c:c:b275:c:c:b990:b2255:b10000:f
+r:0:c:c:b275:c:c:b990:b2255:b10000:c
+r:0:c:c:b275:c:c:b1925
+r:0:c:c:b275:c:c:b1925:f
+r:0:c:c:b275:c:c:b1925:c
+r:0:c:c:b275:c:c:b1925:b4125
+r:0:c:c:b275:c:c:b1925:b4125:f
+r:0:c:c:b275:c:c:b1925:b4125:c
+r:0:c:c:b275:c:c:b1925:b4125:b10000
+r:0:c:c:b275:c:c:b1925:b4125:b10000:f
+r:0:c:c:b275:c:c:b1925:b4125:b10000:c
+r:0:c:c:b275:c:c:b1925:b10000
+r:0:c:c:b275:c:c:b1925:b10000:f
+r:0:c:c:b275:c:c:b1925:b10000:c
+r:0:c:c:b275:c:b550
+r:0:c:c:b275:c:b550:f
+r:0:c:c:b275:c:b550:c
+r:0:c:c:b275:c:b550:b1375
+r:0:c:c:b275:c:b550:b1375:f
+r:0:c:c:b275:c:b550:b1375:c
+r:0:c:c:b275:c:b550:b1375:b3025
+r:0:c:c:b275:c:b550:b1375:b3025:f
+r:0:c:c:b275:c:b550:b1375:b3025:c
+r:0:c:c:b275:c:b550:b1375:b3025:b6325
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:f
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:c
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:b10000
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:b10000:f
+r:0:c:c:b275:c:b550:b1375:b3025:b6325:b10000:c
+r:0:c:c:b275:c:b550:b1375:b3025:b10000
+r:0:c:c:b275:c:b550:b1375:b3025:b10000:f
+r:0:c:c:b275:c:b550:b1375:b3025:b10000:c
+r:0:c:c:b275:c:b1100
+r:0:c:c:b275:c:b1100:f
+r:0:c:c:b275:c:b1100:c
+r:0:c:c:b275:c:b1100:b2475
+r:0:c:c:b275:c:b1100:b2475:f
+r:0:c:c:b275:c:b1100:b2475:c
+r:0:c:c:b275:c:b1100:b2475:b5225
+r:0:c:c:b275:c:b1100:b2475:b5225:f
+r:0:c:c:b275:c:b1100:b2475:b5225:c
+r:0:c:c:b275:c:b1100:b2475:b5225:b10000
+r:0:c:c:b275:c:b1100:b2475:b5225:b10000:f
+r:0:c:c:b275:c:b1100:b2475:b5225:b10000:c
+r:0:c:c:b275:c:b1100:b2475:b10000
+r:0:c:c:b275:c:b1100:b2475:b10000:f
+r:0:c:c:b275:c:b1100:b2475:b10000:c
+r:0:c:c:b275:c:b1925
+r:0:c:c:b275:c:b1925:f
+r:0:c:c:b275:c:b1925:c
+r:0:c:c:b275:c:b1925:b4125
+r:0:c:c:b275:c:b1925:b4125:f
+r:0:c:c:b275:c:b1925:b4125:c
+r:0:c:c:b275:c:b1925:b4125:b10000
+r:0:c:c:b275:c:b1925:b4125:b10000:f
+r:0:c:c:b275:c:b1925:b4125:b10000:c
+r:0:c:c:b275:c:b1925:b10000
+r:0:c:c:b275:c:b1925:b10000:f
+r:0:c:c:b275:c:b1925:b10000:c
+r:0:c:c:b275:b825
+r:0:c:c:b275:b825:f
+r:0:c:c:b275:b825:c
+r:0:c:c:b275:b825:c:c
+r:0:c:c:b275:b825:c:c:c
+r:0:c:c:b275:b825:c:c:b2255
+r:0:c:c:b275:b825:c:c:b2255:f
+r:0:c:c:b275:b825:c:c:b2255:c
+r:0:c:c:b275:b825:c:c:b2255:b4785
+r:0:c:c:b275:b825:c:c:b2255:b4785:f
+r:0:c:c:b275:b825:c:c:b2255:b4785:c
+r:0:c:c:b275:b825:c:c:b2255:b4785:b10000
+r:0:c:c:b275:b825:c:c:b2255:b4785:b10000:f
+r:0:c:c:b275:b825:c:c:b2255:b4785:b10000:c
+r:0:c:c:b275:b825:c:c:b2255:b10000
+r:0:c:c:b275:b825:c:c:b2255:b10000:f
+r:0:c:c:b275:b825:c:c:b2255:b10000:c
+r:0:c:c:b275:b825:c:c:b4125
+r:0:c:c:b275:b825:c:c:b4125:f
+r:0:c:c:b275:b825:c:c:b4125:c
+r:0:c:c:b275:b825:c:c:b4125:b10000
+r:0:c:c:b275:b825:c:c:b4125:b10000:f
+r:0:c:c:b275:b825:c:c:b4125:b10000:c
+r:0:c:c:b275:b825:b1925
+r:0:c:c:b275:b825:b1925:f
+r:0:c:c:b275:b825:b1925:c
+r:0:c:c:b275:b825:b1925:c:c
+r:0:c:c:b275:b825:b1925:c:c:c
+r:0:c:c:b275:b825:b1925:c:c:b4785
+r:0:c:c:b275:b825:b1925:c:c:b4785:f
+r:0:c:c:b275:b825:b1925:c:c:b4785:c
+r:0:c:c:b275:b825:b1925:c:c:b4785:b10000
+r:0:c:c:b275:b825:b1925:c:c:b4785:b10000:f
+r:0:c:c:b275:b825:b1925:c:c:b4785:b10000:c
+r:0:c:c:b275:b825:b1925:c:c:b10000
+r:0:c:c:b275:b825:b1925:c:c:b10000:f
+r:0:c:c:b275:b825:b1925:c:c:b10000:c
+r:0:c:c:b275:b825:b1925:c:b3025
+r:0:c:c:b275:b825:b1925:c:b3025:f
+r:0:c:c:b275:b825:b1925:c:b3025:c
+r:0:c:c:b275:b825:b1925:c:b3025:b6325
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:f
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:c
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:b10000
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:b10000:f
+r:0:c:c:b275:b825:b1925:c:b3025:b6325:b10000:c
+r:0:c:c:b275:b825:b1925:c:b3025:b10000
+r:0:c:c:b275:b825:b1925:c:b3025:b10000:f
+r:0:c:c:b275:b825:b1925:c:b3025:b10000:c
+r:0:c:c:b275:b825:b1925:c:b5225
+r:0:c:c:b275:b825:b1925:c:b5225:f
+r:0:c:c:b275:b825:b1925:c:b5225:c
+r:0:c:c:b275:b825:b1925:c:b5225:b10000
+r:0:c:c:b275:b825:b1925:c:b5225:b10000:f
+r:0:c:c:b275:b825:b1925:c:b5225:b10000:c
+r:0:c:c:b275:b825:b1925:c:b10000
+r:0:c:c:b275:b825:b1925:c:b10000:f
+r:0:c:c:b275:b825:b1925:c:b10000:c
+r:0:c:c:b275:b825:b1925:b4125
+r:0:c:c:b275:b825:b1925:b4125:f
+r:0:c:c:b275:b825:b1925:b4125:c
+r:0:c:c:b275:b825:b1925:b4125:c:c
+r:0:c:c:b275:b825:b1925:b4125:c:c:c
+r:0:c:c:b275:b825:b1925:b4125:c:c:b10000
+r:0:c:c:b275:b825:b1925:b4125:c:c:b10000:f
+r:0:c:c:b275:b825:b1925:b4125:c:c:b10000:c
+r:0:c:c:b275:b825:b1925:b4125:b10000
+r:0:c:c:b275:b825:b1925:b4125:b10000:f
+r:0:c:c:b275:b825:b1925:b4125:b10000:c
+r:0:c:c:b522
+r:0:c:c:b522:f
+r:0:c:c:b522:c
+r:0:c:c:b522:c:c
+r:0:c:c:b522:c:c:c
+r:0:c:c:b522:c:c:b1558
+r:0:c:c:b522:c:c:b1558:f
+r:0:c:c:b522:c:c:b1558:c
+r:0:c:c:b522:c:c:b1558:b3391
+r:0:c:c:b522:c:c:b1558:b3391:f
+r:0:c:c:b522:c:c:b1558:b3391:c
+r:0:c:c:b522:c:c:b1558:b3391:b10000
+r:0:c:c:b522:c:c:b1558:b3391:b10000:f
+r:0:c:c:b522:c:c:b1558:b3391:b10000:c
+r:0:c:c:b522:c:c:b2913
+r:0:c:c:b522:c:c:b2913:f
+r:0:c:c:b522:c:c:b2913:c
+r:0:c:c:b522:c:c:b2913:b6101
+r:0:c:c:b522:c:c:b2913:b6101:f
+r:0:c:c:b522:c:c:b2913:b6101:c
+r:0:c:c:b522:c:c:b2913:b6101:b10000
+r:0:c:c:b522:c:c:b2913:b6101:b10000:f
+r:0:c:c:b522:c:c:b2913:b6101:b10000:c
+r:0:c:c:b522:c:c:b2913:b10000
+r:0:c:c:b522:c:c:b2913:b10000:f
+r:0:c:c:b522:c:c:b2913:b10000:c
+r:0:c:c:b522:c:b920
+r:0:c:c:b522:c:b920:f
+r:0:c:c:b522:c:b920:c
+r:0:c:c:b522:c:b920:b2115
+r:0:c:c:b522:c:b920:b2115:f
+r:0:c:c:b522:c:b920:b2115:c
+r:0:c:c:b522:c:b920:b2115:b4505
+r:0:c:c:b522:c:b920:b2115:b4505:f
+r:0:c:c:b522:c:b920:b2115:b4505:c
+r:0:c:c:b522:c:b920:b2115:b4505:b10000
+r:0:c:c:b522:c:b920:b2115:b4505:b10000:f
+r:0:c:c:b522:c:b920:b2115:b4505:b10000:c
+r:0:c:c:b522:c:b920:b2115:b10000
+r:0:c:c:b522:c:b920:b2115:b10000:f
+r:0:c:c:b522:c:b920:b2115:b10000:c
+r:0:c:c:b522:c:b1718
+r:0:c:c:b522:c:b1718:f
+r:0:c:c:b522:c:b1718:c
+r:0:c:c:b522:c:b1718:b3711
+r:0:c:c:b522:c:b1718:b3711:f
+r:0:c:c:b522:c:b1718:b3711:c
+r:0:c:c:b522:c:b1718:b3711:b10000
+r:0:c:c:b522:c:b1718:b3711:b10000:f
+r:0:c:c:b522:c:b1718:b3711:b10000:c
+r:0:c:c:b522:c:b2913
+r:0:c:c:b522:c:b2913:f
+r:0:c:c:b522:c:b2913:c
+r:0:c:c:b522:c:b2913:b6101
+r:0:c:c:b522:c:b2913:b6101:f
+r:0:c:c:b522:c:b2913:b6101:c
+r:0:c:c:b522:c:b2913:b6101:b10000
+r:0:c:c:b522:c:b2913:b6101:b10000:f
+r:0:c:c:b522:c:b2913:b6101:b10000:c
+r:0:c:c:b522:c:b2913:b10000
+r:0:c:c:b522:c:b2913:b10000:f
+r:0:c:c:b522:c:b2913:b10000:c
+r:0:c:c:b522:b1319
+r:0:c:c:b522:b1319:f
+r:0:c:c:b522:b1319:c
+r:0:c:c:b522:b1319:c:c
+r:0:c:c:b522:b1319:c:c:c
+r:0:c:c:b522:b1319:c:c:b3391
+r:0:c:c:b522:b1319:c:c:b3391:f
+r:0:c:c:b522:b1319:c:c:b3391:c
+r:0:c:c:b522:b1319:c:c:b3391:b10000
+r:0:c:c:b522:b1319:c:c:b3391:b10000:f
+r:0:c:c:b522:b1319:c:c:b3391:b10000:c
+r:0:c:c:b522:b1319:c:c:b6101
+r:0:c:c:b522:b1319:c:c:b6101:f
+r:0:c:c:b522:b1319:c:c:b6101:c
+r:0:c:c:b522:b1319:c:c:b6101:b10000
+r:0:c:c:b522:b1319:c:c:b6101:b10000:f
+r:0:c:c:b522:b1319:c:c:b6101:b10000:c
+r:0:c:c:b522:b1319:b2913
+r:0:c:c:b522:b1319:b2913:f
+r:0:c:c:b522:b1319:b2913:c
+r:0:c:c:b522:b1319:b2913:c:c
+r:0:c:c:b522:b1319:b2913:c:c:c
+r:0:c:c:b522:b1319:b2913:c:c:b10000
+r:0:c:c:b522:b1319:b2913:c:c:b10000:f
+r:0:c:c:b522:b1319:b2913:c:c:b10000:c
+r:0:c:c:b522:b1319:b2913:c:b4507
+r:0:c:c:b522:b1319:b2913:c:b4507:f
+r:0:c:c:b522:b1319:b2913:c:b4507:c
+r:0:c:c:b522:b1319:b2913:c:b4507:b10000
+r:0:c:c:b522:b1319:b2913:c:b4507:b10000:f
+r:0:c:c:b522:b1319:b2913:c:b4507:b10000:c
+r:0:c:c:b522:b1319:b2913:c:b10000
+r:0:c:c:b522:b1319:b2913:c:b10000:f
+r:0:c:c:b522:b1319:b2913:c:b10000:c
+r:0:c:c:b522:b1319:b2913:b6101
+r:0:c:c:b522:b1319:b2913:b6101:f
+r:0:c:c:b522:b1319:b2913:b6101:c
+r:0:c:c:b522:b1319:b2913:b6101:c:c
+r:0:c:c:b522:b1319:b2913:b6101:c:c:c
+r:0:c:c:b522:b1319:b2913:b6101:c:c:b10000
+r:0:c:c:b522:b1319:b2913:b6101:c:c:b10000:f
+r:0:c:c:b522:b1319:b2913:b6101:c:c:b10000:c
+r:0:c:c:b522:b1319:b2913:b6101:b10000
+r:0:c:c:b522:b1319:b2913:b6101:b10000:f
+r:0:c:c:b522:b1319:b2913:b6101:b10000:c
+r:0:c:b468
+r:0:c:b468:f
+r:0:c:b468:c
+r:0:c:b468:c:c
+r:0:c:b468:c:c:c
+r:0:c:b468:c:c:c:c
+r:0:c:b468:c:c:c:c:c
+r:0:c:b468:c:c:c:c:b1434
+r:0:c:b468:c:c:c:c:b1434:f
+r:0:c:b468:c:c:c:c:b1434:c
+r:0:c:b468:c:c:c:c:b1434:b3143
+r:0:c:b468:c:c:c:c:b1434:b3143:f
+r:0:c:b468:c:c:c:c:b1434:b3143:c
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:f
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:c
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:b10000
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:b10000:f
+r:0:c:b468:c:c:c:c:b1434:b3143:b6561:b10000:c
+r:0:c:b468:c:c:c:c:b1434:b3143:b10000
+r:0:c:b468:c:c:c:c:b1434:b3143:b10000:f
+r:0:c:b468:c:c:c:c:b1434:b3143:b10000:c
+r:0:c:b468:c:c:c:c:b2697
+r:0:c:b468:c:c:c:c:b2697:f
+r:0:c:b468:c:c:c:c:b2697:c
+r:0:c:b468:c:c:c:c:b2697:b5669
+r:0:c:b468:c:c:c:c:b2697:b5669:f
+r:0:c:b468:c:c:c:c:b2697:b5669:c
+r:0:c:b468:c:c:c:c:b2697:b5669:b10000
+r:0:c:b468:c:c:c:c:b2697:b5669:b10000:f
+r:0:c:b468:c:c:c:c:b2697:b5669:b10000:c
+r:0:c:b468:c:c:c:c:b2697:b10000
+r:0:c:b468:c:c:c:c:b2697:b10000:f
+r:0:c:b468:c:c:c:c:b2697:b10000:c
+r:0:c:b468:c:c:c:b840
+r:0:c:b468:c:c:c:b840:f
+r:0:c:b468:c:c:c:b840:c
+r:0:c:b468:c:c:c:b840:b1955
+r:0:c:b468:c:c:c:b840:b1955:f
+r:0:c:b468:c:c:c:b840:b1955:c
+r:0:c:b468:c:c:c:b840:b1955:b4185
+r:0:c:b468:c:c:c:b840:b1955:b4185:f
+r:0:c:b468:c:c:c:b840:b1955:b4185:c
+r:0:c:b468:c:c:c:b840:b1955:b4185:b10000
+r:0:c:b468:c:c:c:b840:b1955:b4185:b10000:f
+r:0:c:b468:c:c:c:b840:b1955:b4185:b10000:c
+r:0:c:b468:c:c:c:b840:b1955:b10000
+r:0:c:b468:c:c:c:b840:b1955:b10000:f
+r:0:c:b468:c:c:c:b840:b1955:b10000:c
+r:0:c:b468:c:c:c:b1582
+r:0:c:b468:c:c:c:b1582:f
+r:0:c:b468:c:c:c:b1582:c
+r:0:c:b468:c:c:c:b1582:b3439
+r:0:c:b468:c:c:c:b1582:b3439:f
+r:0:c:b468:c:c:c:b1582:b3439:c
+r:0:c:b468:c:c:c:b1582:b3439:b10000
+r:0:c:b468:c:c:c:b1582:b3439:b10000:f
+r:0:c:b468:c:c:c:b1582:b3439:b10000:c
+r:0:c:b468:c:c:c:b2697
+r:0:c:b468:c:c:c:b2697:f
+r:0:c:b468:c:c:c:b2697:c
+r:0:c:b468:c:c:c:b2697:b5669
+r:0:c:b468:c:c:c:b2697:b5669:f
+r:0:c:b468:c:c:c:b2697:b5669:c
+r:0:c:b468:c:c:c:b2697:b5669:b10000
+r:0:c:b468:c:c:c:b2697:b5669:b10000:f
+r:0:c:b468:c:c:c:b2697:b5669:b10000:c
+r:0:c:b468:c:c:c:b2697:b10000
+r:0:c:b468:c:c:c:b2697:b10000:f
+r:0:c:b468:c:c:c:b2697:b10000:c
+r:0:c:b468:c:c:b1449
+r:0:c:b468:c:c:b1449:f
+r:0:c:b468:c:c:b1449:c
+r:0:c:b468:c:c:b1449:c:c
+r:0:c:b468:c:c:b1449:c:c:c
+r:0:c:b468:c:c:b1449:c:c:b3690
+r:0:c:b468:c:c:b1449:c:c:b3690:f
+r:0:c:b468:c:c:b1449:c:c:b3690:c
+r:0:c:b468:c:c:b1449:c:c:b3690:b10000
+r:0:c:b468:c:c:b1449:c:c:b3690:b10000:f
+r:0:c:b468:c:c:b1449:c:c:b3690:b10000:c
+r:0:c:b468:c:c:b1449:c:c:b6621
+r:0:c:b468:c:c:b1449:c:c:b6621:f
+r:0:c:b468:c:c:b1449:c:c:b6621:c
+r:0:c:b468:c:c:b1449:c:c:b6621:b10000
+r:0:c:b468:c:c:b1449:c:c:b6621:b10000:f
+r:0:c:b468:c:c:b1449:c:c:b6621:b10000:c
+r:0:c:b468:c:c:b1449:b3173
+r:0:c:b468:c:c:b1449:b3173:f
+r:0:c:b468:c:c:b1449:b3173:c
+r:0:c:b468:c:c:b1449:b3173:c:c
+r:0:c:b468:c:c:b1449:b3173:c:c:c
+r:0:c:b468:c:c:b1449:b3173:c:c:b10000
+r:0:c:b468:c:c:b1449:b3173:c:c:b10000:f
+r:0:c:b468:c:c:b1449:b3173:c:c:b10000:c
+r:0:c:b468:c:c:b1449:b3173:c:b4897
+r:0:c:b468:c:c:b1449:b3173:c:b4897:f
+r:0:c:b468:c:c:b1449:b3173:c:b4897:c
+r:0:c:b468:c:c:b1449:b3173:c:b4897:b10000
+r:0:c:b468:c:c:b1449:b3173:c:b4897:b10000:f
+r:0:c:b468:c:c:b1449:b3173:c:b4897:b10000:c
+r:0:c:b468:c:c:b1449:b3173:c:b10000
+r:0:c:b468:c:c:b1449:b3173:c:b10000:f
+r:0:c:b468:c:c:b1449:b3173:c:b10000:c
+r:0:c:b468:c:c:b1449:b3173:b6621
+r:0:c:b468:c:c:b1449:b3173:b6621:f
+r:0:c:b468:c:c:b1449:b3173:b6621:c
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:c
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:b10000
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:b10000:f
+r:0:c:b468:c:c:b1449:b3173:b6621:c:c:b10000:c
+r:0:c:b468:c:c:b1449:b3173:b6621:b10000
+r:0:c:b468:c:c:b1449:b3173:b6621:b10000:f
+r:0:c:b468:c:c:b1449:b3173:b6621:b10000:c
+r:0:c:b468:c:c:b2326
+r:0:c:b468:c:c:b2326:f
+r:0:c:b468:c:c:b2326:c
+r:0:c:b468:c:c:b2326:c:c
+r:0:c:b468:c:c:b2326:c:c:c
+r:0:c:b468:c:c:b2326:c:c:b5707
+r:0:c:b468:c:c:b2326:c:c:b5707:f
+r:0:c:b468:c:c:b2326:c:c:b5707:c
+r:0:c:b468:c:c:b2326:c:c:b5707:b10000
+r:0:c:b468:c:c:b2326:c:c:b5707:b10000:f
+r:0:c:b468:c:c:b2326:c:c:b5707:b10000:c
+r:0:c:b468:c:c:b2326:c:c:b10000
+r:0:c:b468:c:c:b2326:c:c:b10000:f
+r:0:c:b468:c:c:b2326:c:c:b10000:c
+r:0:c:b468:c:c:b2326:b4927
+r:0:c:b468:c:c:b2326:b4927:f
+r:0:c:b468:c:c:b2326:b4927:c
+r:0:c:b468:c:c:b2326:b4927:c:c
+r:0:c:b468:c:c:b2326:b4927:c:c:c
+r:0:c:b468:c:c:b2326:b4927:c:c:b10000
+r:0:c:b468:c:c:b2326:b4927:c:c:b10000:f
+r:0:c:b468:c:c:b2326:b4927:c:c:b10000:c
+r:0:c:b468:c:c:b2326:b4927:c:b10000
+r:0:c:b468:c:c:b2326:b4927:c:b10000:f
+r:0:c:b468:c:c:b2326:b4927:c:b10000:c
+r:0:c:b468:c:c:b2326:b4927:b10000
+r:0:c:b468:c:c:b2326:b4927:b10000:f
+r:0:c:b468:c:c:b2326:b4927:b10000:c
+r:0:c:b468:b1211
+r:0:c:b468:b1211:f
+r:0:c:b468:b1211:c
+r:0:c:b468:b1211:c:c
+r:0:c:b468:b1211:c:c:c
+r:0:c:b468:b1211:c:c:c:c
+r:0:c:b468:b1211:c:c:c:c:c
+r:0:c:b468:b1211:c:c:c:c:b3143
+r:0:c:b468:b1211:c:c:c:c:b3143:f
+r:0:c:b468:b1211:c:c:c:c:b3143:c
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:f
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:c
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:b10000
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:b10000:f
+r:0:c:b468:b1211:c:c:c:c:b3143:b6561:b10000:c
+r:0:c:b468:b1211:c:c:c:c:b3143:b10000
+r:0:c:b468:b1211:c:c:c:c:b3143:b10000:f
+r:0:c:b468:b1211:c:c:c:c:b3143:b10000:c
+r:0:c:b468:b1211:c:c:c:c:b5669
+r:0:c:b468:b1211:c:c:c:c:b5669:f
+r:0:c:b468:b1211:c:c:c:c:b5669:c
+r:0:c:b468:b1211:c:c:c:c:b5669:b10000
+r:0:c:b468:b1211:c:c:c:c:b5669:b10000:f
+r:0:c:b468:b1211:c:c:c:c:b5669:b10000:c
+r:0:c:b468:b1211:c:c:c:b1954
+r:0:c:b468:b1211:c:c:c:b1954:f
+r:0:c:b468:b1211:c:c:c:b1954:c
+r:0:c:b468:b1211:c:c:c:b1954:b4183
+r:0:c:b468:b1211:c:c:c:b1954:b4183:f
+r:0:c:b468:b1211:c:c:c:b1954:b4183:c
+r:0:c:b468:b1211:c:c:c:b1954:b4183:b10000
+r:0:c:b468:b1211:c:c:c:b1954:b4183:b10000:f
+r:0:c:b468:b1211:c:c:c:b1954:b4183:b10000:c
+r:0:c:b468:b1211:c:c:c:b1954:b10000
+r:0:c:b468:b1211:c:c:c:b1954:b10000:f
+r:0:c:b468:b1211:c:c:c:b1954:b10000:c
+r:0:c:b468:b1211:c:c:c:b3440
+r:0:c:b468:b1211:c:c:c:b3440:f
+r:0:c:b468:b1211:c:c:c:b3440:c
+r:0:c:b468:b1211:c:c:c:b3440:b10000
+r:0:c:b468:b1211:c:c:c:b3440:b10000:f
+r:0:c:b468:b1211:c:c:c:b3440:b10000:c
+r:0:c:b468:b1211:c:c:c:b5669
+r:0:c:b468:b1211:c:c:c:b5669:f
+r:0:c:b468:b1211:c:c:c:b5669:c
+r:0:c:b468:b1211:c:c:c:b5669:b10000
+r:0:c:b468:b1211:c:c:c:b5669:b10000:f
+r:0:c:b468:b1211:c:c:c:b5669:b10000:c
+r:0:c:b468:b1211:c:c:b3173
+r:0:c:b468:b1211:c:c:b3173:f
+r:0:c:b468:b1211:c:c:b3173:c
+r:0:c:b468:b1211:c:c:b3173:c:c
+r:0:c:b468:b1211:c:c:b3173:c:c:c
+r:0:c:b468:b1211:c:c:b3173:c:c:b10000
+r:0:c:b468:b1211:c:c:b3173:c:c:b10000:f
+r:0:c:b468:b1211:c:c:b3173:c:c:b10000:c
+r:0:c:b468:b1211:c:c:b3173:b6621
+r:0:c:b468:b1211:c:c:b3173:b6621:f
+r:0:c:b468:b1211:c:c:b3173:b6621:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:b10000
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:b10000:f
+r:0:c:b468:b1211:c:c:b3173:b6621:c:c:b10000:c
+r:0:c:b468:b1211:c:c:b3173:b6621:c:b10000
+r:0:c:b468:b1211:c:c:b3173:b6621:c:b10000:f
+r:0:c:b468:b1211:c:c:b3173:b6621:c:b10000:c
+r:0:c:b468:b1211:c:c:b3173:b6621:b10000
+r:0:c:b468:b1211:c:c:b3173:b6621:b10000:f
+r:0:c:b468:b1211:c:c:b3173:b6621:b10000:c
+r:0:c:b468:b1211:c:c:b4926
+r:0:c:b468:b1211:c:c:b4926:f
+r:0:c:b468:b1211:c:c:b4926:c
+r:0:c:b468:b1211:c:c:b4926:c:c
+r:0:c:b468:b1211:c:c:b4926:c:c:c
+r:0:c:b468:b1211:c:c:b4926:c:c:b10000
+r:0:c:b468:b1211:c:c:b4926:c:c:b10000:f
+r:0:c:b468:b1211:c:c:b4926:c:c:b10000:c
+r:0:c:b468:b1211:c:c:b4926:b10000
+r:0:c:b468:b1211:c:c:b4926:b10000:f
+r:0:c:b468:b1211:c:c:b4926:b10000:c
+r:0:c:b468:b1211:c:b2697
+r:0:c:b468:b1211:c:b2697:f
+r:0:c:b468:b1211:c:b2697:c
+r:0:c:b468:b1211:c:b2697:c:c
+r:0:c:b468:b1211:c:b2697:c:c:c
+r:0:c:b468:b1211:c:b2697:c:c:b6561
+r:0:c:b468:b1211:c:b2697:c:c:b6561:f
+r:0:c:b468:b1211:c:b2697:c:c:b6561:c
+r:0:c:b468:b1211:c:b2697:c:c:b6561:b10000
+r:0:c:b468:b1211:c:b2697:c:c:b6561:b10000:f
+r:0:c:b468:b1211:c:b2697:c:c:b6561:b10000:c
+r:0:c:b468:b1211:c:b2697:c:c:b10000
+r:0:c:b468:b1211:c:b2697:c:c:b10000:f
+r:0:c:b468:b1211:c:b2697:c:c:b10000:c
+r:0:c:b468:b1211:c:b2697:c:b4183
+r:0:c:b468:b1211:c:b2697:c:b4183:f
+r:0:c:b468:b1211:c:b2697:c:b4183:c
+r:0:c:b468:b1211:c:b2697:c:b4183:b10000
+r:0:c:b468:b1211:c:b2697:c:b4183:b10000:f
+r:0:c:b468:b1211:c:b2697:c:b4183:b10000:c
+r:0:c:b468:b1211:c:b2697:c:b10000
+r:0:c:b468:b1211:c:b2697:c:b10000:f
+r:0:c:b468:b1211:c:b2697:c:b10000:c
+r:0:c:b468:b1211:c:b2697:b5669
+r:0:c:b468:b1211:c:b2697:b5669:f
+r:0:c:b468:b1211:c:b2697:b5669:c
+r:0:c:b468:b1211:c:b2697:b5669:c:c
+r:0:c:b468:b1211:c:b2697:b5669:c:c:c
+r:0:c:b468:b1211:c:b2697:b5669:c:c:b10000
+r:0:c:b468:b1211:c:b2697:b5669:c:c:b10000:f
+r:0:c:b468:b1211:c:b2697:b5669:c:c:b10000:c
+r:0:c:b468:b1211:c:b2697:b5669:b10000
+r:0:c:b468:b1211:c:b2697:b5669:b10000:f
+r:0:c:b468:b1211:c:b2697:b5669:b10000:c
+r:0:c:b468:b1211:c:b4034
+r:0:c:b468:b1211:c:b4034:f
+r:0:c:b468:b1211:c:b4034:c
+r:0:c:b468:b1211:c:b4034:c:c
+r:0:c:b468:b1211:c:b4034:c:c:c
+r:0:c:b468:b1211:c:b4034:c:c:b10000
+r:0:c:b468:b1211:c:b4034:c:c:b10000:f
+r:0:c:b468:b1211:c:b4034:c:c:b10000:c
+r:0:c:b468:b1211:c:b4034:c:b6188
+r:0:c:b468:b1211:c:b4034:c:b6188:f
+r:0:c:b468:b1211:c:b4034:c:b6188:c
+r:0:c:b468:b1211:c:b4034:c:b6188:b10000
+r:0:c:b468:b1211:c:b4034:c:b6188:b10000:f
+r:0:c:b468:b1211:c:b4034:c:b6188:b10000:c
+r:0:c:b468:b1211:c:b4034:c:b10000
+r:0:c:b468:b1211:c:b4034:c:b10000:f
+r:0:c:b468:b1211:c:b4034:c:b10000:c
+r:0:c:b468:b1211:c:b4034:b10000
+r:0:c:b468:b1211:c:b4034:b10000:f
+r:0:c:b468:b1211:c:b4034:b10000:c
+r:0:c:b468:b1211:b2697
+r:0:c:b468:b1211:b2697:f
+r:0:c:b468:b1211:b2697:c
+r:0:c:b468:b1211:b2697:c:c
+r:0:c:b468:b1211:b2697:c:c:c
+r:0:c:b468:b1211:b2697:c:c:c:c
+r:0:c:b468:b1211:b2697:c:c:c:c:c
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:f
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:c
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:b10000
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:c:b6561:b10000:c
+r:0:c:b468:b1211:b2697:c:c:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:c:c:c:b4183
+r:0:c:b468:b1211:b2697:c:c:c:b4183:f
+r:0:c:b468:b1211:b2697:c:c:c:b4183:c
+r:0:c:b468:b1211:b2697:c:c:c:b4183:b10000
+r:0:c:b468:b1211:b2697:c:c:c:b4183:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:b4183:b10000:c
+r:0:c:b468:b1211:b2697:c:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:c:c:b6620
+r:0:c:b468:b1211:b2697:c:c:b6620:f
+r:0:c:b468:b1211:b2697:c:c:b6620:c
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:c
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:b6620:c:c:b10000:c
+r:0:c:b468:b1211:b2697:c:c:b6620:b10000
+r:0:c:b468:b1211:b2697:c:c:b6620:b10000:f
+r:0:c:b468:b1211:b2697:c:c:b6620:b10000:c
+r:0:c:b468:b1211:b2697:c:c:b10000
+r:0:c:b468:b1211:b2697:c:c:b10000:f
+r:0:c:b468:b1211:b2697:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669
+r:0:c:b468:b1211:b2697:b5669:f
+r:0:c:b468:b1211:b2697:b5669:c
+r:0:c:b468:b1211:b2697:b5669:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:c:c:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:c:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:c:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:c:b10000
+r:0:c:b468:b1211:b2697:b5669:c:b10000:f
+r:0:c:b468:b1211:b2697:b5669:c:b10000:c
+r:0:c:b468:b1211:b2697:b5669:b10000
+r:0:c:b468:b1211:b2697:b5669:b10000:f
+r:0:c:b468:b1211:b2697:b5669:b10000:c
+END
+EV: 403.749237
+JsJh: 3089.34; 142.85
+JhJc: 3071.37; 142.42
+JsJc: 3061.58; 146.19
+2h2d: 2987.65; 157.81
+2d2c: 2981.75; 157.88
+2h2c: 2940.11; 157.29
+9s9h: 2896.95; 145.53
+9h9c: 2896.69; 145.53
+9s9c: 2875.17; 148.50
+AsJh: 2783.53; 127.43
+AsJs: 2770.58; 131.20
+AsJc: 2753.08; 130.77
+AcJh: 2710.35; 126.93
+AcJs: 2699.56; 130.70
+AcJc: 2681.69; 130.27
+AdJh: 2630.02; 128.30
+AdJs: 2620.81; 132.02
+AdJc: 2603.72; 131.59
+AsAc: 2551.20; 115.27
+AsAd: 2444.82; 101.15
+As9h: 2366.41; 129.96
+AdAc: 2363.55; 100.72
+As9s: 2332.69; 132.53
+As9c: 2326.29; 132.96
+Ac9h: 2292.73; 129.46
+Ac9c: 2260.91; 132.03
+Ac9s: 2254.48; 132.46
+Ad9h: 2235.46; 130.78
+Ad9c: 2199.22; 133.73
+Ad9s: 2199.20; 133.73
+Ad2d: 1924.54; 102.28
+Ac2c: 1727.74; 81.39
+AdQd: 1715.15; 126.92
+AdKd: 1667.73; 129.65
+Js9h: 1513.99; 96.64
+AdTd: 1503.27; 109.81
+Jc9h: 1497.93; 96.35
+Jh9h: 1494.84; 141.03
+Js9s: 1481.82; 136.23
+Js9c: 1479.80; 136.29
+Jc9c: 1465.90; 135.83
+Jc9s: 1462.92; 135.90
+Jh9c: 1454.33; 95.98
+Jh9s: 1453.84; 95.98
+AdQh: 1308.04; 135.39
+AdKc: 1307.32; 136.62
+AdKh: 1306.67; 136.50
+AdKs: 1306.47; 136.62
+AdQc: 1306.00; 136.06
+AdQs: 1305.02; 136.06
+AsQd: 1291.67; 125.92
+AcQd: 1285.04; 125.42
+AsKd: 1281.11; 128.83
+AcKd: 1277.02; 128.33
+AsQh: 1257.48; 134.57
+AsQc: 1254.99; 135.24
+AsKc: 1254.11; 135.80
+AsQs: 1253.58; 135.24
+AsKh: 1253.23; 135.68
+AcQh: 1252.98; 134.07
+AsKs: 1252.71; 135.80
+AcKc: 1251.20; 135.30
+AcQc: 1250.65; 134.74
+AcKh: 1250.40; 135.18
+AcKs: 1249.87; 135.30
+AcQs: 1249.27; 134.74
+Jc2c: 1248.26; 0.00
+Jh2h: 1229.64; 0.00
+Ad8d: 1156.07; 87.53
+Ad7d: 1079.42; 122.11
+AdTh: 1067.35; 97.33
+AdTs: 1064.42; 94.98
+AdTc: 1064.39; 94.98
+AsTd: 1053.11; 90.06
+AcTd: 1052.55; 89.71
+Ad6d: 1040.96; 120.75
+AcTc: 1021.63; 122.55
+AcTh: 1020.92; 123.61
+AsTs: 1020.64; 123.02
+AsTh: 1019.90; 124.09
+AcTs: 1018.98; 121.05
+AsTc: 1018.23; 121.51
+Ad3d: 997.35; 96.00
+Ad5d: 995.61; 103.57
+Ad4d: 994.32; 111.27
+Ad8c: 750.47; 45.07
+Ad8s: 749.80; 45.08
+Ad8h: 749.34; 51.46
+Ac8d: 723.25; 22.06
+As8d: 717.67; 22.14
+Ac8c: 715.73; 46.70
+Ac8s: 713.73; 46.20
+Ac8h: 712.35; 54.85
+As8s: 709.99; 46.88
+As8c: 709.18; 46.38
+As8h: 707.09; 55.05
+Ad7s: 671.15; 64.80
+Ad7c: 671.07; 64.80
+Ad7h: 663.23; 68.29
+Ac7d: 644.63; 53.60
+As7d: 638.54; 53.81
+Ac7s: 636.98; 48.34
+Ac7c: 636.91; 48.22
+Ac7h: 631.41; 48.99
+As7s: 630.17; 48.40
+As7c: 630.12; 48.51
+As7h: 623.80; 49.17
+Ad6s: 603.34; 82.57
+Ad6c: 603.13; 82.57
+Ad6h: 592.47; 78.09
+Ac6d: 583.25; 49.90
+As6d: 578.12; 50.08
+Ac6s: 571.94; 85.95
+Ac6c: 571.68; 85.79
+As6s: 566.67; 86.11
+Ad5c: 566.59; 87.78
+As6c: 566.45; 86.26
+Ad5s: 565.97; 87.78
+Ac6h: 565.01; 79.87
+As6h: 558.12; 80.16
+Ad5h: 558.08; 74.58
+QdTd: 550.87; 137.31
+Ad4s: 550.57; 94.73
+Ad4c: 550.57; 94.73
+Ad4h: 545.57; 87.15
+Ac5d: 543.45; 46.62
+As5d: 539.41; 46.79
+Ac5c: 538.38; 85.11
+Td8d: 536.91; 139.59
+Ac5s: 536.61; 83.43
+As5s: 532.71; 85.42
+As5c: 532.46; 83.73
+Ac5h: 529.95; 70.13
+Ac3c: 529.54; 82.98
+Ac4d: 527.82; 48.47
+As5h: 525.05; 70.39
+As4d: 523.23; 48.65
+Ac4c: 522.50; 94.29
+Ac4s: 521.67; 92.58
+As3s: 520.25; 83.28
+As4s: 517.51; 94.64
+Ac4h: 517.49; 78.79
+As4c: 516.64; 92.92
+As4h: 512.43; 79.08
+Kd2d: 419.20; 117.82
+Qd2d: 391.60; 90.98
+3d2d: 377.10; 0.00
+4d2d: 364.62; 0.00
+5d2d: 361.47; 0.00
+KdTd: 300.35; 115.13
+5d4d: 293.97; 61.67
+4d3d: 291.80; 0.00
+KdQd: 288.22; 88.47
+5d3d: 272.89; 0.00
+8d7d: 254.88; 144.84
+Qd8d: 240.36; 136.09
+Td7d: 238.92; 131.07
+KsJc: 105.25; 130.43
+KcJc: 105.03; 128.59
+KhJc: 104.53; 119.15
+KcJs: 104.47; 130.80
+KsJs: 103.97; 128.96
+KhJs: 103.33; 119.49
+KcJh: 92.72; 104.67
+KsJh: 92.58; 104.67
+KhJh: 91.66; 98.43
+KdJc: 91.27; 98.62
+KdJs: 90.18; 98.91
+KdJh: 77.23; 73.41
+KsKc: 63.85; 0.00
+KhKc: 61.69; 0.00
+KsKh: 61.64; 0.00
+QsJc: 56.29; 78.17
+QcJc: 55.63; 77.63
+QcJs: 54.44; 78.40
+QsJs: 54.13; 77.85
+QhJc: 50.24; 66.82
+Kd7d: 48.83; 108.95
+QhJs: 48.55; 67.01
+Kd6d: 48.44; 118.71
+KdKc: 47.53; 0.00
+KsKd: 47.47; 0.00
+Kd4d: 45.67; 127.86
+KhKd: 45.50; 0.00
+QsQc: 43.55; 0.00
+QsJh: 40.61; 56.96
+Kd8d: 40.53; 98.52
+QcJh: 40.51; 56.96
+Kd3d: 39.42; 122.05
+Kd5d: 38.47; 130.60
+QsQh: 38.43; 0.00
+QhQc: 38.24; 0.00
+QdJc: 37.89; 61.54
+QdJs: 37.15; 61.73
+QhJh: 33.55; 146.37
+QsQd: 25.59; 0.00
+QdQc: 25.40; 0.00
+7d4d: 24.45; 0.00
+QhQd: 21.25; 0.00
+Jc3c: 21.11; 0.00
+QdJh: 20.42; 22.10
+QsTh: 18.95; 137.32
+QcTh: 17.64; 137.32
+Jc6c: 16.98; 0.00
+QsTc: 16.44; 138.48
+Js3s: 16.17; 0.00
+QcTd: 15.75; 124.44
+QsTd: 15.71; 124.44
+Js6s: 14.93; 0.00
+Jh3h: 14.83; 0.00
+QcTs: 14.81; 138.48
+QsTs: 14.61; 143.42
+QhTd: 14.15; 119.63
+QcTc: 13.57; 143.42
+Jc5c: 13.44; 0.00
+Js5s: 12.53; 0.00
+7d3d: 11.76; 0.00
+QhTh: 10.97; 148.73
+Jc7c: 10.85; 0.00
+JcTs: 10.54; 49.80
+Jc4c: 10.53; 0.00
+QhTc: 10.42; 136.28
+QhTs: 10.12; 136.28
+JcTc: 10.05; 49.32
+QdTs: 9.72; 130.59
+QdTc: 9.68; 130.59
+JsTc: 9.33; 49.95
+JsTs: 9.07; 49.47
+Js7s: 9.05; 0.00
+QdTh: 8.78; 113.99
+Jh4h: 8.72; 0.00
+Js4s: 8.67; 0.00
+JcTh: 8.62; 36.56
+6d4d: 8.56; 86.37
+JsTh: 7.53; 36.67
+Jh5h: 4.34; 0.00
+8d4d: 2.45; 0.00
+6d3d: 0.99; 0.00
+Qd6d: -0.56; 121.35
+Jh6h: -1.45; 21.46
+JcTd: -1.82; 28.43
+Qd4d: -2.14; 101.68
+Qd3d: -2.16; 89.41
+JsTd: -2.86; 28.52
+Qd7d: -3.77; 79.42
+Qd5d: -4.80; 118.03
+Jc8s: -6.61; 0.00
+Jc8c: -6.82; 0.00
+Jc8d: -6.92; 0.00
+Js8c: -7.55; 0.00
+Js8d: -7.66; 0.00
+Js8s: -7.73; 0.00
+Jh7h: -8.24; 3.97
+Jc8h: -8.81; 0.00
+JhTs: -9.50; 27.32
+JhTc: -9.56; 27.32
+Js8h: -9.69; 0.00
+JhTh: -12.40; 128.82
+Th8c: -16.35; 124.16
+Th8s: -16.36; 124.16
+6d5d: -18.34; 100.00
+Th8d: -18.73; 112.49
+Jh8s: -21.82; 0.00
+Jh8c: -22.18; 0.00
+7d5d: -22.46; 95.71
+Tc8s: -22.68; 130.32
+Tc8d: -22.70; 121.41
+JhTd: -22.79; 9.75
+Ts8d: -22.96; 121.41
+Ts8c: -23.14; 130.32
+Jh8d: -23.26; 0.00
+7d6d: -23.42; 97.48
+Jh8h: -23.48; 0.00
+Td8c: -25.37; 113.10
+Td8s: -25.51; 113.10
+Tc8c: -25.83; 125.08
+Td5d: -25.85; 0.00
+Ts8s: -26.32; 125.08
+Th8h: -27.57; 146.23
+Td6d: -29.08; 57.28
+Tc8h: -29.10; 120.65
+Ts8h: -29.51; 120.65
+Td8h: -31.17; 107.76
+8d5d: -37.55; 80.31
+8d6d: -39.31; 101.81
+Kc9s: -70.15; 0.00
+Ks9s: -70.40; 0.00
+Ks9c: -72.30; 0.00
+Kc9c: -72.58; 0.00
+Kh9s: -72.92; 0.00
+Kh9c: -75.07; 0.00
+Kd9s: -75.45; 39.27
+Kd9c: -78.10; 39.27
+9s7d: -90.58; 0.00
+9c7d: -90.88; 0.00
+Kc9h: -93.53; 0.00
+Ks9h: -93.61; 0.00
+Kh9h: -95.16; 24.25
+Kd9h: -97.37; 29.61
+Qs9s: -103.10; 32.82
+Qs9c: -103.43; 42.47
+Qc9s: -105.66; 42.47
+Qc9c: -106.04; 32.82
+9s5s: -107.48; 0.00
+9c5c: -108.46; 0.00
+9s6s: -108.51; 48.68
+9c6c: -109.47; 48.68
+9h7d: -111.51; 0.00
+9h5h: -111.52; 0.00
+Qh9s: -113.21; 45.36
+Qh9c: -113.59; 45.36
+9s7c: -117.74; 0.00
+9c7s: -118.13; 0.00
+9s7s: -118.13; 50.85
+9c7c: -118.42; 50.85
+9h6h: -121.21; 132.39
+Qd9s: -122.25; 51.24
+Qs9h: -122.85; 47.01
+Qd9c: -123.33; 51.24
+Qc9h: -125.63; 47.01
+9s7h: -126.23; 0.00
+9c7h: -126.89; 0.00
+Qh9h: -129.40; 120.40
+3c2c: -130.70; 0.00
+3h2h: -132.63; 0.00
+9h7c: -135.09; 0.00
+9h7s: -135.11; 0.00
+9h7h: -141.42; 94.59
+5h2h: -141.51; 0.00
+4h2h: -141.77; 0.00
+9s8s: -141.95; 58.62
+9s8c: -142.09; 66.48
+9c8s: -142.30; 66.48
+Qd9h: -142.40; 46.08
+9c8c: -142.43; 58.62
+Th9s: -143.32; 146.05
+9s8d: -143.56; 96.41
+Th9c: -143.74; 146.05
+4c2c: -143.82; 0.00
+Kc2c: -143.94; 62.20
+9c8d: -144.47; 96.41
+5c2c: -145.86; 0.00
+Ts9s: -145.96; 117.04
+Tc9s: -146.06; 139.88
+Ts9c: -146.59; 139.88
+Tc9c: -146.66; 117.04
+Kh2h: -146.71; 101.87
+9s8h: -148.13; 88.83
+9c8h: -148.76; 88.83
+Td9s: -155.04; 118.86
+4s3s: -155.84; 0.00
+4c3c: -155.91; 0.00
+4h3h: -155.94; 0.00
+Td9c: -156.02; 118.86
+5h3h: -157.01; 0.00
+9h8d: -159.30; 142.16
+5s3s: -159.50; 0.00
+5c3c: -159.58; 0.00
+Qc2c: -160.79; 84.12
+9h8s: -161.87; 140.09
+9h8c: -162.12; 140.09
+Th9h: -162.33; 129.02
+5s4s: -162.98; 125.49
+5c4c: -163.41; 125.49
+5h4h: -164.15; 125.89
+9h8h: -164.18; 112.27
+Ts9h: -164.40; 144.25
+Tc9h: -164.43; 144.25
+Qh2h: -170.76; 140.27
+Td9h: -173.07; 126.87
+TsTc: -180.07; 0.00
+TsTh: -182.43; 6.02
+ThTc: -182.49; 6.02
+TsTd: -190.27; 0.00
+TdTc: -190.45; 0.00
+ThTd: -191.10; 13.31
+KcQs: -203.03; 75.37
+KsQc: -203.04; 75.37
+KcQc: -203.92; 80.08
+KsQs: -203.94; 80.08
+KhQs: -204.28; 54.53
+KhQc: -204.30; 54.53
+KdQc: -205.08; 121.38
+KdQs: -205.18; 121.38
+KsQh: -205.47; 51.62
+KcQh: -205.52; 51.62
+KdQh: -206.68; 84.98
+KhQh: -207.63; 154.47
+KsQd: -207.66; 89.98
+KcQd: -207.80; 89.98
+KhQd: -208.40; 61.00
+KsTd: -220.75; 144.81
+KcTd: -220.91; 144.81
+KhTd: -221.54; 127.04
+KdTs: -221.90; 134.28
+KdTh: -221.93; 121.79
+KdTc: -221.93; 134.28
+KsTh: -221.95; 135.10
+KhTh: -222.39; 149.84
+KcTh: -222.71; 135.10
+KsTc: -223.32; 138.66
+KsTs: -223.63; 136.47
+KhTc: -223.91; 123.08
+KhTs: -223.93; 123.08
+KcTs: -223.94; 138.66
+KcTc: -224.13; 136.47
+7d7c: -224.59; 86.57
+7s7d: -224.60; 86.57
+6s6d: -232.35; 140.28
+6d6c: -232.36; 140.28
+7h7d: -234.35; 101.37
+6h6d: -240.53; 141.37
+4s4d: -240.68; 153.52
+4d4c: -240.70; 153.52
+5d5c: -243.01; 147.39
+5s5d: -243.28; 147.39
+4h4d: -243.73; 149.28
+8s7d: -243.94; 0.00
+8c7d: -243.95; 0.00
+6s6c: -244.88; 60.66
+3d3c: -246.26; 156.86
+7s7c: -246.32; 0.00
+5h5d: -246.42; 144.85
+8s7c: -246.43; 0.00
+8c7s: -246.71; 0.00
+8d7c: -247.07; 0.00
+6s6h: -247.14; 120.44
+3s3d: -247.20; 156.86
+8d7s: -247.25; 0.00
+6h6c: -247.43; 120.44
+8c7c: -247.74; 154.06
+8s7s: -247.79; 154.06
+8h7d: -251.33; 0.00
+3h3d: -251.74; 156.80
+5h5c: -252.41; 129.13
+8s7h: -253.06; 0.00
+5s5h: -253.10; 129.13
+8c7h: -253.16; 0.00
+8d7h: -253.83; 0.00
+8h7c: -254.04; 0.00
+8h7s: -254.22; 0.00
+5s5c: -254.82; 72.28
+Tc7c: -255.31; 112.37
+Th7h: -255.66; 136.46
+Ts7s: -256.33; 112.37
+7h7c: -256.72; 0.09
+7s7h: -256.74; 0.09
+3s3c: -257.35; 126.23
+4s4c: -258.40; 115.22
+4h4c: -260.53; 141.02
+4s4h: -260.55; 141.02
+8h7h: -260.91; 152.16
+Qd8c: -263.38; 0.00
+Qd8s: -263.44; 0.00
+Qs8c: -264.26; 0.00
+Qs8s: -264.39; 132.27
+Qd8h: -264.62; 0.00
+Qc8c: -264.89; 132.27
+Qc8s: -264.91; 0.00
+3h3c: -265.15; 151.89
+3s3h: -265.53; 151.89
+Qs8d: -267.06; 0.00
+Qc8d: -267.32; 0.00
+Qh8d: -268.36; 0.00
+Qh8c: -269.49; 0.00
+Qh8s: -269.52; 0.00
+Qs8h: -269.72; 0.00
+Qc8h: -270.25; 0.00
+8h8d: -271.72; 75.96
+Qh8h: -272.86; 150.92
+8s8d: -273.02; 54.85
+8d8c: -273.91; 54.85
+8s8c: -279.22; 0.97
+8s8h: -279.24; 13.39
+8h8c: -279.89; 13.39
+6c4c: -419.93; 42.83
+6s4s: -419.95; 42.83
+Kd6c: -421.07; 0.00
+Kd6s: -421.35; 0.00
+Kd6h: -421.86; 0.00
+Kd7s: -424.09; 0.00
+Kd7c: -424.12; 0.00
+6c3c: -424.19; 0.00
+Ks6c: -425.01; 0.00
+Kh6c: -425.07; 0.00
+Kc6c: -425.25; 32.70
+Ks6s: -425.28; 32.70
+Kh6s: -425.36; 0.00
+Ks6h: -425.39; 0.00
+Kc6s: -425.51; 0.00
+Kc6h: -425.62; 0.00
+6s3s: -426.26; 0.00
+Kh6h: -426.35; 100.77
+Ks4s: -426.89; 72.87
+Kc4c: -427.22; 72.87
+Kh7c: -427.29; 0.00
+Ks7c: -427.33; 0.00
+Kh7s: -427.35; 0.00
+Ks7s: -427.37; 0.00
+Ks5s: -427.53; 55.35
+Kc7c: -427.55; 0.00
+Kc7s: -427.59; 0.00
+Kd7h: -427.65; 0.00
+Kh5h: -427.90; 119.93
+Kc5c: -427.96; 55.35
+Kh4h: -428.44; 111.56
+Ks6d: -430.05; 0.00
+Kc6d: -430.27; 0.00
+Ks3s: -430.42; 56.24
+Kh6d: -430.47; 0.00
+Kh7h: -430.48; 40.14
+Ks7h: -430.54; 0.00
+6s5s: -430.59; 70.97
+Kc3c: -430.61; 56.24
+6c5c: -430.67; 70.97
+Kc7h: -430.78; 0.00
+Kh3h: -431.61; 101.31
+Ks7d: -432.65; 0.00
+Kc7d: -432.93; 0.00
+Kh7d: -433.31; 0.00
+7c4c: -435.44; 0.00
+7s4s: -435.44; 0.00
+6h4h: -436.96; 117.32
+Kd8c: -437.02; 115.69
+Kd8s: -437.12; 115.69
+Kh8s: -437.85; 0.00
+Kh8c: -437.90; 0.00
+Ks8s: -437.94; 7.01
+Ks8c: -437.99; 7.01
+Kd8h: -438.00; 104.56
+Kc8s: -438.21; 7.01
+Kc8c: -438.26; 7.01
+Ks8h: -438.44; 16.90
+Kh8h: -438.49; 53.36
+Kc8h: -438.66; 16.90
+7c6c: -439.46; 82.97
+7s6c: -439.62; 0.00
+7c6s: -439.71; 0.00
+7s6s: -439.90; 82.97
+Ks8d: -440.97; 116.96
+Kh8d: -441.11; 78.62
+Kc8d: -441.17; 116.96
+7d6c: -442.66; 0.00
+7d6s: -442.86; 0.00
+7c3c: -443.03; 0.00
+6h5h: -443.21; 142.55
+7s3s: -444.76; 0.00
+7h4h: -445.66; 0.00
+7s5s: -446.01; 89.19
+7c5c: -446.23; 89.19
+7h6c: -446.61; 0.00
+7d6h: -446.64; 0.00
+7h6s: -446.86; 0.00
+Qc6c: -446.96; 45.71
+6h3h: -447.12; 0.00
+Qs6s: -447.23; 45.71
+Qh6h: -447.67; 116.79
+7c6h: -447.79; 0.00
+7s6h: -447.91; 0.00
+Qc4c: -447.91; 85.34
+Qs4s: -447.97; 85.34
+Qh4h: -447.99; 125.83
+Qs5s: -448.27; 69.34
+Qc5c: -448.38; 69.34
+Qh5h: -448.77; 126.56
+Qh3h: -448.93; 139.25
+Qc3c: -449.18; 79.59
+Qs3s: -449.27; 79.59
+7h6d: -449.81; 0.00
+Ts5s: -449.81; 0.00
+Tc5c: -449.87; 0.00
+Tc6c: -450.07; 151.74
+Ts6s: -450.16; 151.74
+8c4c: -450.80; 0.00
+8s4s: -450.82; 0.00
+7s6d: -451.41; 0.00
+7c6d: -451.44; 0.00
+Qs7s: -452.01; 0.00
+Qc7c: -452.04; 0.00
+Th6h: -452.05; 148.66
+8h4h: -452.06; 0.00
+Th5h: -452.32; 0.00
+Qh7h: -452.51; 14.02
+7h5h: -453.05; 107.96
+7h6h: -453.40; 106.21
+8c5c: -454.54; 101.73
+8s5s: -454.64; 101.73
+8c6c: -455.40; 91.70
+8s6s: -455.56; 91.70
+8h5h: -457.49; 135.01
+8h6h: -457.53; 129.81
+7h3h: -459.92; 0.00
+
+END
+EOF encountered
