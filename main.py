@@ -1,11 +1,12 @@
 from pyosolver import PYOSolver
-from analytics import simplify_node
+from analytics import simplify_solve
 
 PATH = "C:\\PioSOLVER"
 EXECUTABLE = "PioSOLVER2-edge"
 def main():
-	solver = PYOSolver(PATH, EXECUTABLE)
-	solver.load_tree("C:\\Users\\wmizu\\Desktop\\weaz.cfr")
-	simplify_node(solver, "r:0:c:b468:c:2c:c", "IP")
+	bet_size_to_ev = simplify_solve("C:\\Users\\wmizu\\Desktop\\weaz.cfr", "IP")
+	print("Results")
+	for bet_size in sorted(list(bet_size_to_ev.keys())):
+		print("Bet Size: {}, EV: {}".format(bet_size, bet_size_to_ev[bet_size]))
 
 main()

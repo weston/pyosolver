@@ -1,58 +1,62 @@
 from pyosolver import node_to_line
+from pyosolver import PYOSolver
 
+PATH = "C:\\PioSOLVER"
+EXECUTABLE = "PioSOLVER2-edge"
+def simplify_solve(cfr_file_path, position):
+	solver = PYOSolver(PATH, EXECUTABLE)
+	print("Loading tree")
+	solver.load_tree(cfr_file_path)
+	solver.build_tree()
 
-def simplify_node(solver, node_id, position):
-	"""
-	Looks at a single node with multiple bet sizes, and chooses
-	a single node that captures the most EV.
-	"""
-	node_id_without_cards = remove_cards(node_id)
-	action_to_lines = {}
-	for line in solver.show_all_lines():
-		if line.startswith(node_id_without_cards):
-			remainder = line.replace(node_id_without_cards, "").split(":")
-			if len(remainder) < 2:
+	# Look at all of the flop sizes available, choose one, try range bets with each.
+	tree_info = solver.show_tree_info()
+	print("Fetching lines")
+	all_lines = [node_to_line(n) for n in solver.show_all_lines()]
+
+	flop_sizes = tree_info["FlopConfig{}.BetSize".format(position)]
+	if len(flop_sizes) < 2:
+		print("Only one flop size")
+		return
+
+	print("Gathering CBet sizes")	
+	chip_bet_sizes = []
+	for children in solver.show_children(get_flop_bet_node(position)):
+		if "b" in children["last_action"]:
+			chip_bet_sizes.append(int(children["last_action"].replace("b", "")))
+	flop_sizes = sorted(flop_sizes)
+	chip_bet_sizes = sorted(chip_bet_sizes)
+	
+	bet_size_to_ev = {}
+	for percent, chips in zip(flop_sizes, chip_bet_sizes):
+		for to_remove in chip_bet_sizes:
+			if to_remove == chips:
 				continue
-			action = remainder[1]
-			if action not in action_to_lines:
-				action_to_lines[action] = []
-			action_to_lines[action].append(line)
+			solver.remove_line(get_cbet_line(position, to_remove))
+		if position == "OOP":
+			solver.remove_line([0])
+		else:
+			solver.remove_line([0, 0])
+		solver.build_tree()
+		print("Considering range bet for {}%".format(percent))
+		solver.go()
+		solver.wait_for_solver()
+		bet_size_to_ev[percent] = solver.calc_ev(position, "r")
+		
+		solver.clear_lines()
+		# Add lines back
+		for line in all_lines:
+			solver.add_line(line)
 
-	allowed_action_sets = [["c"]]
-	for action in action_to_lines:
-		if action != "c":
-			allowed_action_sets.append(["c", action])
-			allowed_action_sets.append([action])
- 
-	action_set_to_ev = {
-		str(action_to_lines.keys()): solver.calc_ev(position, node_id),
-	}
-	print(action_set_to_ev)
-	return
-	for allowed_action_set in allowed_action_sets:
-		print(action_set_to_ev)
-		lines_to_remove = []
-		for action in action_to_lines:
-			if action not in allowed_action_set:
-				lines_to_remove.extend(action_to_lines[action])
-		for line in lines_to_remove:
-			solver.remove_line(node_to_line(line))
-		solver.solve_partial(node_id)
-		action_set_to_ev[str(allowed_action_set)] = solver.calc_ev(
-			position, node_id)
-		# Solve this node, get EV of node
-		# Add lines back	
-		for line in lines_to_remove:
-			solver.add_line(node_to_line(line))
-	return action_set_to_ev
+	return bet_size_to_ev
 
 
-def remove_cards(node_id):
-	ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "t", "j", "q", "k", "a"]
-	suits = ["c", "d", "h", "s"]
-	for suit in suits:
-		for rank in ranks:
-			if rank+suit in node_id:
-				node_id = node_id.replace(rank+suit+":", "")
-	print(node_id)
-	return node_id
+def get_flop_bet_node(position):
+	if position == "OOP":
+		return "r:0"
+	return "r:0:c"
+
+def get_cbet_line(position, chip_count):
+	if position == "OOP":
+		return [chip_count]
+	return [0, chip_count]
