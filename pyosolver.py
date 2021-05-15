@@ -145,6 +145,13 @@ class PYOSolver(object):
 
 	def dump_tree(self, filename):
 		return self._run("dump_tree", filename)
+
+	def lock_node(self, node_id):
+		return self._run("lock_node", node_id)
+
+	def set_strategy(self, node_id, *values):
+		values = [str(v) for v in values]
+		return self._run("set_strategy", node_id, *values)
 		
 	def _parse_data(self, data, *name_to_parser):
 		parsed_data = {}
