@@ -152,6 +152,9 @@ class PYOSolver(object):
 	def set_strategy(self, node_id, *values):
 		values = [str(v) for v in values]
 		return self._run("set_strategy", node_id, *values)
+
+	def show_strategy(self, node_id):
+		return self._run("show_strategy", node_id).split("\n")
 		
 	def _parse_data(self, data, *name_to_parser):
 		parsed_data = {}
