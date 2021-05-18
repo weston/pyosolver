@@ -1,6 +1,6 @@
 # PYOSolver.py
 
-PYOSolver.py is a Python wrapper library used for interacting with [PIOSolver](https://www.piosolver.com/). PIOSolver.exe provides a text interface to interact with the solver, and PYOSolver.py allows you to interact with through this interface with Python scripts. This will allow you do more complex scripts than PIOSolver natively supports in the PIOViewer program. Documentation for all of the various commands used to interact with PIOSolver can be found [here](https://piofiles.com/docs/upi_documentation/). This library is specifically intended for PIOSolver 2.0, although there is not reason it wouldn't also support PIOSolver 1.0.
+PYOSolver.py is a Python wrapper library used for interacting with [PIOSolver](https://www.piosolver.com/). PIOSolver.exe provides a text interface to interact with the solver, and PYOSolver.py allows you to interact with through this interface with Python scripts. This will allow you do more complex scripts than PIOSolver natively supports in the PIOViewer program. Documentation for all of the various commands used to interact with PIOSolver can be found [here](https://piofiles.com/docs/upi_documentation/). This library is specifically intended for PIOSolver 2.0, although there is not reason it wouldn't also support PIOSolver 1.0 unless a specific command is new.
 
 
 ## Usage
