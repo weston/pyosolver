@@ -261,7 +261,17 @@ def guess_type(key, data_string):
 	if data_string == "False":
 		return False
 	if "Config" in key and "Size" in key:
-		return [int(a) for a in data_string.split(",")]
+		if data_string.find(","):
+			try:
+				return [int(a) for a in data_string.split(",")]
+			#Case where sizings are expressed as allin 3x or 2e
+			except ValueError:
+				return data_string.split(",")
+		else:
+			try:
+				return [int(a) for a in data_string.split(" ")]
+			except ValueError:
+				return data_string.split(" ")
 	if "Range" in key:
 		return data_string.split(",")
 	if "Board" == key:
