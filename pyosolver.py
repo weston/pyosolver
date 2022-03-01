@@ -260,12 +260,11 @@ def guess_type(key, data_string):
 		return True
 	if data_string == "False":
 		return False
-	print(key)
-	print(data_string)
 	if "Config" in key and "Size" in key:
 		if data_string.find(","):
 			try:
 				return [int(a) for a in data_string.split(",")]
+			#Case where sizings are expressed as allin 3x or 2e
 			except ValueError:
 				return data_string.split(",")
 		else:
