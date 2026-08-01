@@ -1,6 +1,11 @@
 import subprocess
 import os
-from typing import List, Optional
+import queue
+from typing import List, Optional, Callable
+
+
+class SolverDied(Exception):
+    """The PioSOLVER process terminated unexpectedly."""
 
 
 class Node:
@@ -40,6 +45,7 @@ class PYOSolver(object):
         store_script=False,
         simulate=False,
         end_string="END",
+        print_initial_lines=False,
     ):
         self.log_file = log_file
         if log_file is not None:
@@ -52,6 +58,13 @@ class PYOSolver(object):
         self.executable_name = executable_name
         self.end_string = end_string
         self.simulate = simulate
+
+        # External IO integration (set later by relayer)
+        self._external_line_queue: Optional["queue.Queue[str]"] = None
+        self._forward_callback: Optional[Callable[[str], None]] = None
+        self._is_paused_fn: Optional[Callable[[], bool]] = None
+        self._end_replacement: Optional[str] = None  # what to show instead of END when forwarding
+
         self.process = subprocess.Popen(
             [os.path.join(self.solver_path, self.executable_name)],
             cwd=self.solver_path,
@@ -65,18 +78,86 @@ class PYOSolver(object):
         self.jesolver = False
         if ('jesolver' in self.executable_name.lower()):
             self.jesolver = True
-        self.process.stdout.readline()
-        self.process.stdout.readline()
+
+        # NOTE: At construction time, the relayer's reader thread usually isn't started yet,
+        # so it's safe to read these lines directly here.
+        line1 = self.process.stdout.readline()
+        line2 = self.process.stdout.readline()
         regstered_to_line = self.process.stdout.readline()
+        if print_initial_lines:
+            print(line1.strip())
+            print(line2.strip())
+            print(regstered_to_line.strip())
         self.email = regstered_to_line.replace('registered to ', '').strip()
 
         self._run("set_end_string", self.end_string)
         self._run("set_threads", "0")
         self._run("set_recalc_accuracy", "0.0025 0.001 0.0005")
         self._run("set_accuracy", "20")
-        self._run("set_always_recalc", "0 60000")
+        # NOTE: deliberately no set_always_recalc here. With auto-recalc on,
+        # every show_strategy re-solves the node and silently overwrites
+        # strategies applied via set_strategy — which breaks node-locking.
         self._run("is_ready")
 
+    # ----- External IO attachment -----
+    def attach_external_io(
+        self,
+        line_queue: "queue.Queue[str]",
+        forward_callback: Callable[[str], None],
+        is_paused_fn: Callable[[], bool],
+        end_replacement: Optional[str] = None,
+    ):
+        """
+        Attach an external line bus and a forwarder. When attached:
+          - If is_paused_fn() returns True, commands CAPTURE (return strings).
+          - If is_paused_fn() returns False, commands STREAM (forward lines) and return "".
+
+        line_queue: central queue fed by a single reader thread.
+        forward_callback: called with each line (with END replaced) when streaming.
+        is_paused_fn: tells whether we are currently capturing (paused) or streaming (unpaused).
+        end_replacement: what to print instead of the raw END marker when forwarding.
+        """
+        self._external_line_queue = line_queue
+        self._forward_callback = forward_callback
+        self._is_paused_fn = is_paused_fn
+        self._end_replacement = end_replacement or self.end_string
+
+    # ----- Core helpers -----
+    def _readline(self) -> str:
+        """
+        Read one line from either the external queue (preferred) or the process directly.
+        """
+        if self._external_line_queue is not None:
+            # Block until a line is available (the relayer reader is feeding this)
+            return self._external_line_queue.get()
+        # Fallback: direct read (standalone usage)
+        line = self.process.stdout.readline()
+        if line == "" and self.process.poll() is not None:
+            raise SolverDied("PioSOLVER process terminated unexpectedly")
+        return line
+
+    def _should_capture(self) -> bool:
+        # Default to capturing when no external controller is present
+        if self._is_paused_fn is None:
+            return True
+        return self._is_paused_fn()
+
+    def _forward_or_buffer(self, raw_line: str, buffer: list):
+        """
+        Depending on paused/stream mode, either forward the line or buffer it.
+        Always use raw_line to check terminators; when forwarding, replace END visibly.
+        """
+        if self._should_capture():
+            buffer.append(raw_line)
+        else:
+            # Streaming mode: forward
+            if self._forward_callback:
+                display_line = raw_line
+                if self.end_string and self._end_replacement is not None:
+                    display_line = display_line.replace(self.end_string, self._end_replacement)
+                self._forward_callback(display_line.rstrip("\n"))
+
+    # ----- Public API -----
     def reset(self):
         self.process = subprocess.Popen(
             [os.path.join(self.solver_path, self.executable_name)],
@@ -100,32 +181,40 @@ class PYOSolver(object):
 
     def show_node(self, node_id) -> Optional[Node]:
         data = self._run("show_node", node_id)
+        if not data:
+            # Streaming mode returns ""; in streaming mode the caller doesn't need parsed output.
+            return None
         if "ERROR" in data:
             return None
         return Node(data)
+
+    def set_isomorphism(self, a, b):
+        self._run("set_isomorphism", str(a), str(b))
+
+    def calc_results(self):
+        data = self._run("calc_results").split("\n")
+        return {
+            'OOP': float(data[0].split(': ')[1].strip()),
+            'IP': float(data[1].split(': ')[1].strip()),
+            'exploitable_for': float(data[4].split(': ')[1].strip()),
+        }
 
     def show_children(self, node_id) -> List[Node]:
         """
         Return a list of children of the given specified node.
         """
         data = self._run("show_children", node_id)
-        if "ERROR" in data:
+        if not data:
             return []
-        if data.strip() == "":
+        if "ERROR" in data or data.strip() == "":
             return []
-        
-        # Jesolver does not have double newlines in between children
-        # nodes, which makes the parsing break.
-        if self.jesolver: 
+
+        # Jesolver does not have double newlines in between children nodes
+        if self.jesolver:
             data = data.replace('\nchild ', '\n\nchild ')
 
         children_lines = data.split("\n\n")
         children = []
-        """
-        From the docs, each child entry is of the form:
-        'child n:' nodeID NODE_TYPE board pot children_no 'flags: f1 f2'
-
-        """
         for child_line in children_lines:
             items = child_line.split("\n")
             node_data = items[1:]
@@ -136,29 +225,42 @@ class PYOSolver(object):
 
     def show_children_actions(self, node_id) -> Optional[List[str]]:
         data = self._run("show_children", node_id)
-        if "ERROR" in data:
+        if not data:
             return []
-        if data.strip() == "":
+        if "ERROR" in data or data.strip() == "":
             return []
         children_lines = data.split("\n\n")
-        return [child.split("\n")[1].strip().split(":")[-1] for child in children_lines]
+        return [child.split("\n")[1].strip().split(":")[-1]
+                for child in children_lines]
 
     def show_hand_order(self):
-        return self._run("show_hand_order").split(" ")
+        out = self._run("show_hand_order")
+        return out.split(" ") if out else []
 
     def set_accuracy(self, accuracy: float, accuracy_type: str = "chips"):
         if accuracy_type != "fraction":
             accuracy_type = "chips"
-
         self._run("set_accuracy", str(accuracy), accuracy_type)
+
+    def set_recalc_accuracy(self, f: float, t: float, r: float):
+        self._run("set_recalc_accuracy", str(f), str(t), str(r))
 
     def go(self, steps=None, units="seconds", quiet=False):
         command = ["go"]
         if steps is not None:
             command += [str(steps), units]
         response = self._run(*command)
+        if response and "ERROR" in response:
+            # go was rejected (e.g. incomplete tree); no progress lines follow
+            return response
+        # Stream/capture solver progress lines until the stop trigger
         output = self._get_solver_output(trigger_word="SOLVER: stopped (", quiet=quiet)
-        return response + "\n" + output
+        return (response + "\n" + output).strip() if output else response
+
+    def go_nowait(self):
+        """Start solving and return immediately (after 'go ok!'). Pair with
+        stop() + wait_for_solver(). Unlike go(), never blocks on progress."""
+        return self._run("go")
 
     def stop(self):
         return self._run("stop")
@@ -169,25 +271,45 @@ class PYOSolver(object):
     def rebuild_forgotten_streets(self):
         return self._run("rebuild_forgotten_streets")
 
+    def rebuild_tree(self):
+        # PioSOLVER 3.10+ replacement for rebuild_forgotten_streets
+        return self._run("rebuild_tree")
+
+    def set_algorithm(self, name):
+        # v4_small (default) derives strategies from regrets, so set_strategy
+        # silently doesn't stick. original_pio stores strategies explicitly.
+        return self._run("set_algorithm", name)
+
+    def set_info_freq(self, iterations):
+        return self._run("set_info_freq", str(iterations))
+
     def estimate_rebuild_forgotten_streets(self):
         response = self._run("estimate_rebuild_forgotten_streets")
         return response
 
     def show_tree_info(self):
         data = {}
-        self._run("show_tree_info")
-        for line in self._run("show_tree_info").split("\n"):
-            _, key, value = line.split("#")
-            # We don't know what order these will be in, so
-            # we will just try to guess the type.
-            data[key] = guess_type(key, value)
+        raw = self._run("show_tree_info")
+        if not raw:
+            return data
+        for line in raw.split("\n"):
+            try:
+                _, key, value = line.split("#")
+                data[key] = guess_type(key, value)
+            except Exception:
+                continue
         return data
 
+    def load_all_nodes(self):
+        return self._run("load_all_nodes")
+
     def show_all_lines(self):
-        return self._run("show_all_lines").split("\n")
+        out = self._run("show_all_lines")
+        return out.split("\n") if out else []
 
     def show_effective_stack(self):
-        return int(self._run("show_effective_stack").strip())
+        out = self._run("show_effective_stack")
+        return int(out.strip()) if out else 0
 
     def remove_line(self, line):
         line = [str(l) for l in line]
@@ -202,6 +324,8 @@ class PYOSolver(object):
 
     def calc_ev(self, position, node):
         results = self._run("calc_ev", position, node)
+        if not results:
+            return (), ()
         evs, matchups = results.split("\n")
         evs = tuple(float(ev) for ev in evs.split())
         matchups = tuple(float(matchup) for matchup in matchups.split())
@@ -211,12 +335,14 @@ class PYOSolver(object):
         return self._run("solve_partial", node_id)
 
     def show_range(self, position, node_id) -> List[float]:
-        range = self._run("show_range", position, node_id)
-        if "ERROR" in range:
-            print(f"Error in range at {position} {node_id}")
-            print(f"{range}")
+        rng = self._run("show_range", position, node_id)
+        if not rng:
             return None
-        return [float(freq) for freq in range.split()]
+        if "ERROR" in rng:
+            print(f"Error in range at {position} {node_id}")
+            print(f"{rng}")
+            return None
+        return [float(freq) for freq in rng.split()]
 
     def set_range(self, position, *values):
         values = [str(a) for a in values]
@@ -236,6 +362,7 @@ class PYOSolver(object):
 
     def dump_tree(self, filename, save_type="no_rivers"):
         save_type = save_type.lower().replace("-", "_")
+        filename = '"' + filename + '"'
         if save_type in ("small", "no_rivers", None):
             save_type = "no_rivers"
         elif save_type in ("very_small", "no_turns"):
@@ -249,39 +376,89 @@ class PYOSolver(object):
         return self._run("dump_tree", filename, save_type)
 
     def lock_node(self, node_id):
-        response = self._run("lock_node", node_id)
-        return response
+        return self._run("lock_node", node_id)
+
+    def unlock_node(self, node_id):
+        return self._run("unlock_node", node_id)
 
     def load_script_silent(self, script_filepath):
         return self._run("load_script_silent", script_filepath)
 
     def set_strategy(self, node_id, *values):
         values = [str(v) for v in values]
-        response = self._run("set_strategy", node_id, *values)
-        return response
+        return self._run("set_strategy", node_id, *values)
+
+    def update_strategy(self, node_id, *values):
+        self.load_all_nodes()
+        self.rebuild_forgotten_streets()
+        hand_order = self.show_hand_order() 
+        current_strategy = self.show_strategy(node_id);
+        current_strategy = [item for sublist in current_strategy for item in sublist]
+        for value in values:
+            components = value.split(',')
+            child_index = int(components[0])
+            hand = components[1]
+            frequency = float(components[2])
+            try:
+                current_strategy_index = (child_index * len(hand_order)) + hand_order.index(hand) 
+            except Exception:
+                current_strategy_index = (child_index * len(hand_order)) + hand_order.index(hand[2:] + hand[:2]) 
+            current_strategy[current_strategy_index] = frequency
+        assert (self.set_strategy(node_id, *current_strategy) == 'set_strategy ok!')
+        return 'update_strategy ok!'
 
     def show_strategy(self, node_id):
-        strats = self._run("show_strategy", node_id).split("\n")
+        out = self._run("show_strategy", node_id)
+        if not out:
+            return []
+        strats = out.split("\n")
         return [[float(s) for s in strat.split()] for strat in strats]
 
     def calc_global_freq(self, node_id: str) -> float:
-        return float(self._run("calc_global_freq", node_id))
+        out = self._run("calc_global_freq", node_id)
+        return float(out) if out else 0.0
 
     def calc_line_freq(self, node_id: str) -> float:
-        return float(self._run("calc_line_freq", node_id))
-	
-    def _parse_data(self, data, *name_to_parser):
-        parsed_data = {}
-        for i, data_line in enumerate(data.split("\n")):
-            name = name_to_parser[i][0]
-            parse_func = name_to_parser[i][1]
-            parsed_data[name] = parse_func(data_line)
-        return parsed_data
+        out = self._run("calc_line_freq", node_id)
+        return float(out) if out else 0.0
+
+    def set_rake(self, fraction: float, cap: int):
+        return self._run("set_rake", str(fraction), str(cap))
+
+    def get_rake_fraction_and_cap(self):
+        info = self.show_tree_info()
+        rake_fraction = float(info.get('Rake.Fraction', 0.0))
+        rake_cap = int(info.get('Rake.Cap', 0))
+        return rake_fraction, rake_cap
+
+    def show_categories(self, board):
+        out = self._run("show_categories", "".join(board))
+        if not out:
+            return {"made_hands": [], "draws": []}
+        made_hands, draws = out.split("\n")
+        return {
+            "made_hands": [int(a) for a in made_hands.split(' ') if a != ''],
+            "draws": [int(a) for a in draws.split(' ') if a != ''],
+        }
+
+    def show_category_names(self):
+        result = self._run("show_category_names")
+        if not result:
+            return {"made_hands": [], "draws": []}
+        made_hands, draws = result.split("\n")
+        return {
+            "made_hands": made_hands.split(' '),
+            "draws": draws.split(' '),
+        }
+
 
     def _run(self, *commands):
         if len(commands) == 0:
             return None
         command = commands[0]
+        if command == 'update_strategy':
+            node = commands[1]
+            return self.update_strategy(node, *commands[2:])
         command_with_args = " ".join(commands)
         if self.store_script:
             self.commands.append(command_with_args)
@@ -293,80 +470,124 @@ class PYOSolver(object):
             self.log_file.flush()
 
         if self.simulate:
-            return
-        self.process.stdin.write(" ".join(commands) + "\n")
-        end_string = f"{self.end_string}\n"
-        lines = []
+            return ""
 
+        # Send command
+        try:
+            self.process.stdin.write(" ".join(commands) + "\n")
+        except OSError as e:
+            raise SolverDied(f"could not write to PioSOLVER: {e}")
+
+        # Normal sentinel
+        current_end = f"{self.end_string}\n"
+
+        # Special handling if we're changing the end string right now.
+        is_set_end = (command == "set_end_string")
+        new_end = None
+        if is_set_end and len(commands) >= 2:
+            # The solver will start using the NEW token for this response's terminator.
+            # To avoid a deadlock, accept BOTH the old and the new for THIS read.
+            new_end = f"{commands[1]}\n"
+
+        # Determine trigger word behavior
         trigger_word = None
         if command in NO_OUTPUT_COMMANDS:
-            # We need to use a trigger word to tell if we are done
             trigger_word = f"{command} ok!\n"
+
+        lines = []
+
+        def is_terminator(line: str) -> bool:
+            # For set_end_string, accept either old or new token during this response.
+            if is_set_end and new_end is not None:
+                return (line == current_end) or (line == new_end)
+            return (line == current_end)  # exact line match is the safest
 
         if trigger_word:
             found_tw = False
             while True:
-                lines.append(self.process.stdout.readline())
-                if trigger_word in lines[-1]:
+                line = self._readline()
+                # Forward or buffer as usual
+                self._forward_or_buffer(line, lines)
+                # Trigger seen?
+                if (trigger_word in line) or ('ERROR' in line):
                     found_tw = True
-                if found_tw and end_string in lines[-1]:
+                # Now wait until the end marker line
+                if found_tw and is_terminator(line):
                     break
-
         else:
             while True:
-                lines.append(self.process.stdout.readline())
-                if end_string in lines[-1]:
+                line = self._readline()
+                self._forward_or_buffer(line, lines)
+                if is_terminator(line):
                     break
 
         output = "".join(lines)
 
-        if self.debug:
-            print(output)
         if self.log_file:
             self.log_file.write(f"[<] {output}\n")
             self.log_file.flush()
 
-        return output.replace("END\n", "").strip()
+        output = output.replace("END\n", "").strip()  # legacy cleanup; harmless
+
+        # If we just changed the token, commit the new one for future reads.
+        if is_set_end and len(commands) >= 2:
+            self.end_string = commands[1]
+
+        # In streaming mode, we returned everything via forward_callback; return empty string.
+        if not self._should_capture():
+            return ""
+
+        return output
 
     def _get_solver_output(self, trigger_word, quiet=False):
-        end_string = f"{self.end_string}\n"
+        """
+        Used for long-running operations like 'go' which print progress lines.
+        Behavior matches _run: capture when paused; forward when streaming.
+        """
+        current_end = f"{self.end_string}\n"
         lines = []
+
+        # NOTE: We don't change the end string here, but mirror the same matching logic
+        # style as in _run (exact line equality to the current end token).
+        def is_terminator(line: str) -> bool:
+            return (line == current_end)
+
         if trigger_word:
             while True:
-                line = self.process.stdout.readline()
-                if self.debug:
-                    print(f"Found line: {line}", end="")
-                lines.append(line)
-                if trigger_word in lines[-1]:
-                    print("Found Trigger word")
+                line = self._readline()
+                self._forward_or_buffer(line, lines)
+                if trigger_word in line:
                     break
-
         else:
             while True:
-                line = self.process.stdout.readline()
-                if self.debug:
-                    print(f"Found line: {line}", end="")
-                lines.append(line)
-                if end_string in lines[-1]:
+                line = self._readline()
+                self._forward_or_buffer(line, lines)
+                if is_terminator(line):
                     break
+
         output = "".join(lines)
 
         if self.debug:
-            print(output)
-        elif not quiet:
             print(output)
 
         if self.log_file:
             self.log_file.write(f"[<] {output}\n")
             self.log_file.flush()
 
-        return output.replace("END\n", "").strip()
+        output = output.replace("END\n", "").strip()
+        if not self._should_capture():
+            return ""
+        return output
 
+    
     def __del__(self):
         if self.log_file:
             self.log_file.close()
-        if self.process:
-            self.process.kill()
+        if getattr(self, "process", None):
+            try:
+                self.process.kill()
+            except Exception:
+                pass
         if self.store_script:
             with open("script.txt", "w") as f:
                 f.write("\n".join(self.commands))
@@ -385,7 +606,6 @@ def guess_type(key, data_string):
         if data_string.find(","):
             try:
                 return [int(a) for a in data_string.split(",")]
-            # Case where sizings are expressed as allin 3x or 2e
             except ValueError:
                 return data_string.split(",")
         else:
@@ -401,10 +621,10 @@ def guess_type(key, data_string):
 
 
 def try_value_as_literal(data_string):
-    try:
-        return bool(data_string)
-    except ValueError:
-        pass
+    if data_string in ("true", "True"):
+        return True
+    if data_string in ("false", "False"):
+        return False
     try:
         return int(data_string)
     except ValueError:
@@ -441,10 +661,8 @@ def info_range_to_pio_range(hand_order, info_range):
 def is_member(hand, hand_class):
     if len(hand_class) == 2:
         if hand_class[0] == hand_class[1]:
-            # JsJh, JJ
             return hand[0] == hand[2] == hand_class[0]
         else:
-            # AhKs, AK
             return (hand[0] == hand_class[0] and hand[2] == hand_class[1]) or (
                 hand[0] == hand_class[1] and hand[2] == hand_class[0]
             )
